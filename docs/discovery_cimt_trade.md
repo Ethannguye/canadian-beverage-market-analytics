@@ -49,3 +49,9 @@ CAD millions (nominal), derived exclusively from source values:
 - Month and year aggregates use sum of original dollars and litres, without currency, inflation or volume adjustments.
 - Values may be revised by Statistics Canada on later downloads; always preserve original filename and accessed date.
 - The exact HS vintage classification and market-enterprise opportunity interpretation still require careful source review.
+
+## Verified end-to-end MySQL 8 integration (2026-11-09)
+
+[Import + Total Export MySQL CI workflow](https://github.com/Ethannguye/canadian-beverage-market-analytics/actions/runs/42573045003) **PASSED**. It normalized all six original CSVs and loaded **24,634** rows in a **temporary GitHub Actions MySQL 8 database**, preserving trade flow and U.S. state. The workflow validated each HS6's 2025 import amount, total export amount, and monthly SQL trade balance, and uploaded temporary normalized-data artifacts. It does not update the user's local MySQL instance.
+
+[Regression tests](https://github.com/Ethannguye/canadian-beverage-market-analytics/actions/runs/42573458762) **PASSED**, including exact re-creation of every committed annual, monthly and country-level aggregate from the six source CSVs.
