@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pid: ['20100017','20100080','12100176']
+        pid: ['20100017','20100080']
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
