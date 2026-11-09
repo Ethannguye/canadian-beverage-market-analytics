@@ -31,6 +31,10 @@ class HS2201Tests(unittest.TestCase):
                 rows={(r["year"],r["hs_code"]):r for r in csv.DictReader(f)}
             self.assertEqual(int(rows[("2025","220110")]["imports_cad"]),98740904)
             self.assertEqual(int(rows[("2025","220190")]["imports_cad"]),49177038)
+            self.assertEqual(int(rows[("2025","220110")]["exports_cad"]),11315171)
+            self.assertEqual(int(rows[("2025","220190")]["exports_cad"]),15555617)
+            self.assertEqual(int(rows[("2025","220110")]["trade_balance_cad"]),-87425733)
+            self.assertEqual(int(rows[("2025","220190")]["trade_balance_cad"]),-33621421)
 
     def test_all_five_codes_integrity(self):
         with tempfile.TemporaryDirectory() as td:
