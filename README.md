@@ -2,7 +2,7 @@
 
 A reproducible portfolio project studying **Canada's domestic non-alcoholic beverage market and international trade** using public Canadian statistics, Python, MySQL, and Power BI.
 
-> **Project status (2026-11-09):** GitHub Actions successfully downloaded and profiled the first official source (32-10-0054-01). One small curated, auditable food-availability CSV is committed in `data/curated/`. Other sources, database loading, and the PBIX remain in progress. No full-market size, trade-partner figures, or completed dashboard is claimed.
+> **Project status (2026-11-09):** GitHub Actions successfully downloaded and profiled the first official source (32-10-0054-01). One small curated, auditable food-availability CSV is committed in `data/curated/`. Four official data tables have now been curated into 672 source-attributed observations (retail 144, CPI 360, food availability 24, manufacturing 144). The MySQL schema and Power BI imports are implemented as code/templates, but final database deployment, HS partner trade and the actual .pbix remain outstanding. No full-market size, trade-partner figures, or finished dashboard is claimed.
 
 ## Research questions
 1. How did relevant retail-product sales change during 2020–2025?
@@ -51,6 +51,17 @@ python etl/prepare_statcan.py --tables 32100054
 python -m unittest discover -s tests -v
 ```
 **Note:** Full-table exports can be very large. Start with one table, check its metadata, dimensions, and product codes, and only then expand. The project currently does **not** bundle a ready-to-run PBIX or verified market totals.
+
+## Ready-to-use verified data
+
+| Dataset | Rows | File |
+|---|---:|---|
+| Retail two leaf categories | 144 | [CSV](data/curated/retail_beverage_2020_2025.csv) |
+| CPI (Canada/Ontario and beverage categories) | 360 | [CSV](data/curated/cpi_beverages_2020_2025.csv) |
+| Food available per person | 24 | [CSV](data/curated/food_availability_2020_2025.csv) |
+| Manufacturing shipments, Ontario/Quebec | 144 | [CSV](data/curated/manufacturing_soft_drinks_2020_2025.csv) |
+
+**Power BI quick start:** [import four CSV sources via ready-made Power Query scripts](powerbi/QUICKSTART_CSV.md). Core category/method limits remain described under `docs/`.
 
 ## Planned deliverables
 - Data acquisition logs, source inventory and data dictionary

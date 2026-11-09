@@ -24,6 +24,9 @@ class PeriodTests(unittest.TestCase):
     def test_exclude_alcohol_candidates(self):
         self.assertIsNotNone(ALCOHOL_EXCLUSION.search("Ciders, coolers and other refreshment beverages"))
         self.assertIsNone(ALCOHOL_EXCLUSION.search("Non-alcoholic soft drinks"))
+        self.assertIsNotNone(ALCOHOL_EXCLUSION.search("Alcoholic beverages, at retail"))
+        self.assertIsNotNone(ALCOHOL_EXCLUSION.search("Cannabis-infused beverages"))
+        self.assertIsNotNone(ALCOHOL_EXCLUSION.search("Retail commissions based on beverages"))
     def test_beverage_candidate(self):
         self.assertIsNotNone(BEVERAGE_PATTERN.search("Carbonated soft drinks"))
         self.assertIsNone(BEVERAGE_PATTERN.search("Automotive components"))
