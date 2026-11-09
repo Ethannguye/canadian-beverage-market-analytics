@@ -12,9 +12,9 @@
 | MySQL DDL/views/procedure | PASS (GitHub Actions MySQL 8) | Original validation run 42567637131; code updated to preserve US partner states; rerun CI with current schema |
 | MySQL loaded market data | NOT YET | Needs MySQL connection, staging ingestion, review and validation |
 | Industry-trade full-table 12-10-0176-01 | DEFERRED | Official ZIP exceeds 600 MB safety limit; no large-file commit |
-| HS country/commodity imports | **2202 IMPORTS READY** | 15,670 official source rows (220210/220291/220299), 72 months each; still need 2201, 2009 and exports |
-| Power BI M query imports | READY TO USE | Five .pq sources including original HS imports; Windows Power BI Desktop required |
+| HS country/commodity imports + exports | **2202 TRADE FLOWS READY** | 24,634 source observations, 72 months per HS6/flow, 216 monthly HS trade balances; still need 2201 and 2009 |
+| Power BI M queries (domestic + both trade flows) | READY TO USE | Four domestic .pq queries plus one combined six-source CIMT trade .pq; Power BI Desktop required |
 | Complete six-page .pbix | NOT YET | Requires Power BI Desktop and additional reviewed measures and HS trade |
-| Final business recommendations | PARTIAL HS2202 INSIGHTS | Need exports, broader product coverage, classification review and validated Power BI visuals |
+| Final business recommendations | PARTIAL HS2202 TRADE INSIGHTS | Now import/export/balance verified; broader product coverage, HS comparability review and final PBIX needed |
 
 **Do not misread 'DATA READY' as 'database loaded' or 'Power BI completed'.** These are separate milestones, and future findings depend on the data remaining comparable.

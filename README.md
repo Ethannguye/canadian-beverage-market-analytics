@@ -2,7 +2,7 @@
 
 A reproducible portfolio project studying **Canada's domestic non-alcoholic beverage market and international trade** using public Canadian statistics, Python, MySQL, and Power BI.
 
-> **Project status (2026-11-09):** Verified 5 official-source areas with **672 source-attributed domestic-market observations** and **15,670 authentic CIMT import observations** for HS6 220210, 220291 and 220299 (72 months each). Reproducible ETL, quality tests, MySQL schema and Power Query scripts are committed. **No exports, HS2201, HS2009, completed database fact deployment, or .pbix file yet.** Market research beyond these commodities remains ongoing.
+> **Project status (2026-11-09):** Six authentic CIMT HS6 files now checked: **15,670 imports + 8,964 total-export records = 24,634** for 2020–2025, alongside 672 domestic-market observations. Reproducible transformation scripts, QA, MySQL 8 CI and Power Query links are in the repository. HS2201/HS2009, final local MySQL data deployment and the six-page PBIX remain pending.
 
 ## Research questions
 1. How did relevant retail-product sales change during 2020–2025?
@@ -60,11 +60,13 @@ python -m unittest discover -s tests -v
 | CPI (Canada/Ontario and beverage categories) | 360 | [CSV](data/curated/cpi_beverages_2020_2025.csv) |
 | Food available per person | 24 | [CSV](data/curated/food_availability_2020_2025.csv) |
 | Manufacturing shipments, Ontario/Quebec | 144 | [CSV](data/curated/manufacturing_soft_drinks_2020_2025.csv) |
-| CIMT raw imports HS220210, HS220291, HS220299 | 15,670 | [original files](data/source_exports/cimt/) |
+| CIMT raw imports and total exports HS220210/220291/220299 | 24,634 | [six original files](data/source_exports/cimt/) |
 | CIMT monthly HS6 aggregates | 216 | [CSV](data/curated/cimt_imports_monthly_totals_2020_2025.csv) |
-| CIMT yearly partner aggregates | 1,398 | [CSV](data/curated/cimt_imports_annual_partner_2020_2025.csv) |
+| CIMT yearly partner aggregates (imports only) | 1,398 | [CSV](data/curated/cimt_imports_annual_partner_2020_2025.csv) |
+| CIMT annual import/export trade balances | 18 | [CSV](data/curated/cimt_trade_annual_balances_2020_2025.csv) |
+| CIMT monthly import/export trade balances | 216 | [CSV](data/curated/cimt_trade_monthly_balances_2020_2025.csv) |
 
-**Power BI quick start:** [import five domains (domestic indicators + HS6 imports) via ready-made Power Query scripts](powerbi/QUICKSTART_CSV.md). Core category/method limits remain described under `docs/`.
+**Power BI quick start:** [import domestic indicators and both HS6 trade flows using ready-made Power Query scripts](powerbi/QUICKSTART_CSV.md). Core category/method limits remain described under `docs/`.
 
 ## Reproduce partner-level imports
 
@@ -72,8 +74,11 @@ python -m unittest discover -s tests -v
 python etl/prepare_cimt_exports.py
 # Outputs include data/processed/cimt_imports_normalized_2020_2025.csv
 # Requires MySQL 8+ schema and credentials for the next step:
-# python etl/load_cimt_csv.py data/processed/cimt_imports_normalized_2020_2025.csv
+# python etl/prepare_cimt_trade.py
+# python etl/load_cimt_csv.py data/processed/cimt_trade_normalized_2020_2025.csv
 ```
+
+**Trade-balance source audit:** [see six-file verification and calculations](docs/discovery_cimt_trade.md).
 
 ## Planned deliverables
 - Data acquisition logs, source inventory and data dictionary

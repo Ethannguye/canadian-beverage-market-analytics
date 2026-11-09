@@ -1,11 +1,11 @@
 # Power BI report implementation guide
 
-**Status:** Five Power Query connectors for real curated domestic-source and authentic HS6 import data are ready. A ready-to-open .pbix is **not yet available**.
+**Status:** Four domestic data Power Query connectors plus a combined six-file CIMT import/total-export query are ready. A ready-to-open .pbix is **not yet available**.
 Power BI Desktop is normally run on Windows. The user can open this repo on a school Windows PC or another machine running Power BI Desktop.
 
 ## Quick import (no MySQL required)
 
-See [QUICKSTART_CSV.md](QUICKSTART_CSV.md). The `cimt_imports_from_github.pq` Power Query reads the three original user-exported Statistics Canada import files; it skips the first title row and source citation footer, retains `PartnerState`, and filters 2020–2025. The other four .pq files read verified domestic indicators.
+See [QUICKSTART_CSV.md](QUICKSTART_CSV.md). The **`cimt_trade_from_github.pq`** query reads the six original user-exported Statistics Canada CSV files (three imports and three **Total exports**); it skips their first title rows and source citation footers, preserves `PartnerState`, and filters 2020–2025. **Do not load the old `CIMTImports` query simultaneously**. The other four .pq files read verified domestic indicators.
 
 ## Import data
 Home > Get data > MySQL database. Server: localhost (if MySQL is on the same Windows machine). Database: canadian_beverage_market. Select Import mode for a small 2020–2025 curated model.
@@ -23,7 +23,7 @@ Alternatively, export view data to CSV from MySQL Workbench if the Windows PC ca
 ## Six report pages
 1. Executive Overview — cards; cross-source trends only with separate axes/units.
 2. Domestic Retail — monthly published values; NAPCS vintage slicer; do not bridge 2022–2023 blindly.
-3. Imports (Exports pending) — actual HS220210/220291/220299 values by month, product and partner; preserve US states. No trade balance until exports are collected.
+3. Import and Total Export Trade Balance — actual HS220210/220291/220299 values by month, product and partner; preserve US states; compute export minus import.
 4. Pricing & Availability — CPI YoY as rate; annual food availability in a separate visual.
 5. Manufacturing & Regional — source-compliant province/industry breakdown.
 6. Market Entry Opportunities — partner concentration, growth and a **transparent illustrative** opportunity scoring rubric.
