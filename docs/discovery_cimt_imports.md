@@ -42,3 +42,14 @@ These numbers represent **only the selected HS headings**, not total non-alcohol
 - `powerbi/cimt_imports_from_github.pq`: reads original three files directly in Power BI Desktop and retains partner state in each observation.
 
 The derived data are strictly for analytics and can be recreated from the originals; do not alter the source files.
+
+## Verified MySQL 8 integration run (2026-11-09)
+
+[GitHub Actions CIMT integration](https://github.com/Ethannguye/canadian-beverage-market-analytics/actions/runs/42571409692) **PASSED**. The workflow:
+- parsed three original files into **15,670** record-level observations;
+- created **9,898** source country × month × HS groups and **216** month × HS totals;
+- loaded all **15,670** records to a **temporary GitHub Actions MySQL 8 test database**, preserving partner states;
+- confirmed source row count and each HS6 **2025 import total** exactly (all checks printed PASS);
+- uploaded normalized CSV, partner-month CSV and profile as a temporary build artifact.
+
+**This does not populate the user's local MySQL database and does not mean a Power BI .pbix has been created.** The normalized file can be reproduced with `python etl/prepare_cimt_exports.py`. Product codes remain in `candidate` review status in the fact database until the classification source audit.
