@@ -1,9 +1,10 @@
-name: CIMT HS6 imports reproducible validation and MySQL load
+name: CIMT HS6 imports and total exports MySQL integration
 on:
   push:
     branches: [main]
     paths:
       - 'data/source_exports/cimt/**'
+      - 'etl/prepare_cimt_trade.py'
       - 'etl/prepare_cimt_exports.py'
       - 'etl/load_cimt_csv.py'
       - 'sql/**'
@@ -39,37 +40,66 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install Python and MySQL client dependencies
+      - name: Install Python and MySQL client
         run: |
           pip install -r requirements.txt
           sudo apt-get update -qq
           sudo apt-get install -y default-mysql-client
-      - name: Validate and normalize all three original CIMT imports exports
-        run: python etl/prepare_cimt_exports.py
-      - name: Prepare MySQL schema and analytical objects
+      - name: Normalize six original CIMT files and calculate monthly and annual balances
+        run: python etl/prepare_cimt_trade.py
+      - name: Create MySQL schema and views
         run: |
           mysql --protocol=tcp -h 127.0.0.1 -uroot < sql/01_schema.sql
           mysql --protocol=tcp -h 127.0.0.1 -uroot < sql/02_load.sql
           mysql --protocol=tcp -h 127.0.0.1 -uroot < sql/04_analytical_views.sql
-      - name: Load 15,670 authentic HS6 observations
-        run: python etl/load_cimt_csv.py data/processed/cimt_imports_normalized_2020_2025.csv
-      - name: Verify 2025 HS6 totals and original row count
+      - name: Load 24,634 authentic import and total-export rows
+        run: python etl/load_cimt_csv.py data/processed/cimt_trade_normalized_2020_2025.csv
+      - name: Validate counts, flows, annual values and SQL trade-balance view
         run: |
-          mysql --protocol=tcp -h 127.0.0.1 -uroot -D canadian_beverage_market -N -e "
-          SELECT IF(COUNT(*)=15670,'PASS:count','FAIL:count') FROM fact_hs_trade;
-          SELECT IF(SUM(value_cad)=742467960,'PASS:220210','FAIL:220210')
-          FROM fact_hs_trade WHERE hs_code='220210' AND reference_period LIKE '2025-%';
-          SELECT IF(SUM(value_cad)=36748545,'PASS:220291','FAIL:220291')
-          FROM fact_hs_trade WHERE hs_code='220291' AND reference_period LIKE '2025-%';
-          SELECT IF(SUM(value_cad)=917338369,'PASS:220299','FAIL:220299')
-          FROM fact_hs_trade WHERE hs_code='220299' AND reference_period LIKE '2025-%';
-          "
-      - name: Upload cleaned record-level data and provenance for later MySQL / Power BI use
+          python - <<'PY'
+          import os
+          import mysql.connector
+          conn = mysql.connector.connect(
+              host=os.environ["MYSQL_HOST"], user=os.environ["MYSQL_USER"],
+              password=os.environ["MYSQL_PASSWORD"], database=os.environ["MYSQL_DATABASE"]
+          )
+          c = conn.cursor()
+          c.execute("SELECT trade_flow, COUNT(*) FROM fact_hs_trade GROUP BY trade_flow")
+          counts = dict(c.fetchall())
+          assert counts == {"Import": 15670, "Export": 8964}, counts
+          expected = {
+              "220210": (742467960, 345659136),
+              "220291": (36748545, 10275799),
+              "220299": (917338369, 426863410),
+          }
+          for hs, wanted in expected.items():
+              c.execute("""SELECT trade_flow,SUM(value_cad) FROM fact_hs_trade
+                WHERE hs_code=%s AND reference_period LIKE '2025-%%' GROUP BY trade_flow""",(hs,))
+              values = dict(c.fetchall())
+              actual = (int(values["Import"]),int(values["Export"]))
+              assert actual == wanted, (hs,actual,wanted)
+              print("PASS:",hs,actual,"balance",actual[1]-actual[0])
+          # Approval here affects only temporary CI database; production requires manual review.
+          c.execute("UPDATE dim_hs_product SET review_status='approved' WHERE hs_code IN ('220210','220291','220299')")
+          conn.commit()
+          c.execute("""SELECT hs_code,SUM(imports_cad),SUM(exports_cad),SUM(trade_balance_cad)
+            FROM vw_hs_trade_monthly_balance_canada
+            WHERE reference_period LIKE '2025-%%'
+            GROUP BY hs_code ORDER BY hs_code""")
+          for hs,imports,exports,balance in c.fetchall():
+              assert (int(imports),int(exports)) == expected[hs]
+              assert int(balance) == int(exports-imports)
+          c.close();conn.close()
+          print("PASS: 24,634 original rows, three 2025 HS balances and audited SQL view")
+          PY
+      - name: Upload normalized records, provenance and trade balances
         uses: actions/upload-artifact@v4
         with:
-          name: cimt-2202-imports-normalized-2020-2025
+          name: cimt-2202-import-export-normalized-2020-2025
           path: |
-            data/processed/cimt_imports_normalized_2020_2025.csv
-            data/processed/cimt_imports_monthly_partner_2020_2025.csv
-            data/processed/cimt_profile.json
+            data/processed/cimt_trade_normalized_2020_2025.csv
+            data/processed/cimt_trade_monthly_balances_2020_2025.csv
+            data/processed/cimt_trade_annual_balances_2020_2025.csv
+            data/processed/cimt_trade_annual_partner_2020_2025.csv
+            data/processed/cimt_trade_profile.json
           retention-days: 7

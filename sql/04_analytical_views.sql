@@ -57,3 +57,22 @@ FROM vw_hs_trade
 WHERE trade_flow='Import'
   AND clearance_geography='Canada'
   AND LOWER(partner_country) NOT IN ('world','all countries','total','all trading partners');
+
+
+-- Preview monthly HS trade balance only AFTER explicit classification approval.
+-- Country='Canada' in the CIMT source is a partner identifier, not a grand total;
+-- it must be included, while World/All countries aggregate rows are excluded.
+CREATE OR REPLACE VIEW vw_hs_trade_monthly_balance_canada AS
+SELECT f.reference_period,p.period_year,f.hs_code,
+  SUM(CASE WHEN f.trade_flow='Import' THEN f.value_cad ELSE 0 END) AS imports_cad,
+  SUM(CASE WHEN f.trade_flow='Export' THEN f.value_cad ELSE 0 END) AS exports_cad,
+  SUM(CASE WHEN f.trade_flow='Export' THEN f.value_cad ELSE -f.value_cad END) AS trade_balance_cad,
+  SUM(CASE WHEN f.trade_flow='Import' THEN 1 ELSE 0 END) AS import_rows,
+  SUM(CASE WHEN f.trade_flow='Export' THEN 1 ELSE 0 END) AS export_rows
+FROM fact_hs_trade f
+JOIN dim_hs_product d USING(hs_code)
+JOIN dim_period p USING(reference_period)
+WHERE d.review_status='approved'
+  AND f.clearance_geography='Canada'
+  AND LOWER(f.partner_country) NOT IN ('world','all countries','total','all trading partners')
+GROUP BY f.reference_period,p.period_year,f.hs_code;

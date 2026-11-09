@@ -1,0 +1,42 @@
+-- Power BI Desktop: Create these as measures on the CIMTTrade table.
+-- Import six original source files with powerbi/cimt_trade_from_github.pq.
+-- Use a Calendar table with relationship to CIMTTrade[PeriodDate].
+-- Flow is always Import or Export; all values reported in nominal CAD.
+
+CIMT Imports CAD =
+CALCULATE(SUM('CIMTTrade'[ValueCAD]), 'CIMTTrade'[TradeFlow] = "Import")
+
+CIMT Total Exports CAD =
+CALCULATE(SUM('CIMTTrade'[ValueCAD]), 'CIMTTrade'[TradeFlow] = "Export")
+
+CIMT Trade Balance CAD =
+[CIMT Total Exports CAD] - [CIMT Imports CAD]
+
+CIMT Trade Balance CAD Millions =
+DIVIDE([CIMT Trade Balance CAD], 1000000)
+
+CIMT Import Litres =
+CALCULATE(SUM('CIMTTrade'[QuantityLitres]), 'CIMTTrade'[TradeFlow] = "Import")
+
+CIMT Export Litres =
+CALCULATE(SUM('CIMTTrade'[QuantityLitres]), 'CIMTTrade'[TradeFlow] = "Export")
+
+CIMT Import YoY % =
+VAR PY = CALCULATE([CIMT Imports CAD], SAMEPERIODLASTYEAR('Calendar'[Date]))
+RETURN DIVIDE([CIMT Imports CAD] - PY, PY)
+
+CIMT Export YoY % =
+VAR PY = CALCULATE([CIMT Total Exports CAD], SAMEPERIODLASTYEAR('Calendar'[Date]))
+RETURN DIVIDE([CIMT Total Exports CAD] - PY, PY)
+
+CIMT Partner Import Share =
+DIVIDE(
+    [CIMT Imports CAD],
+    CALCULATE([CIMT Imports CAD], REMOVEFILTERS('CIMTTrade'[PartnerCountry]),
+                                      REMOVEFILTERS('CIMTTrade'[PartnerState]))
+)
+
+-- Expected 2025 context: HS220210: Imports 742,467,960; Exports 345,659,136.
+-- HS220291: Imports 36,748,545; Exports 10,275,799.
+-- HS220299: Imports 917,338,369; Exports 426,863,410.
+-- Do NOT sum CPI and trade dollars or confuse nominal import value with retail demand.
