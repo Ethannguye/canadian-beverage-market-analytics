@@ -1,0 +1,47 @@
+name: MySQL schema integration test
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mysql-integration.yml'
+      - 'sql/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  mysql-schema:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: temporary_ci_test_password
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h 127.0.0.1 -uroot -ptemporary_ci_test_password"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=12
+    env:
+      MYSQL_PWD: temporary_ci_test_password
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install MySQL client
+        run: sudo apt-get update -qq && sudo apt-get install -y default-mysql-client
+      - name: Initialize 8.0 schema
+        run: mysql --protocol=tcp -h 127.0.0.1 -uroot < sql/01_schema.sql
+      - name: Build review-gated loading procedure
+        run: mysql --protocol=tcp -h 127.0.0.1 -uroot < sql/02_load.sql
+      - name: Build analytical views
+        run: mysql --protocol=tcp -h 127.0.0.1 -uroot < sql/04_analytical_views.sql
+      - name: Execute validation checks
+        run: mysql --protocol=tcp -h 127.0.0.1 -uroot < sql/03_validation.sql
+      - name: Check that no dummy market rows were inserted
+        run: |
+          result=$(mysql --protocol=tcp -h 127.0.0.1 -uroot -N -e 'SELECT COUNT(*) FROM canadian_beverage_market.fact_retail_sales;')
+          test "$result" = "0"
+          echo 'MySQL schema and views executed successfully; fact tables initially empty as intended.'
