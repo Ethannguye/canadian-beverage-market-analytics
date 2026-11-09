@@ -1,0 +1,41 @@
+name: Consumer prices and manufacturing discovery
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/price-manufacturing-discovery.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        pid: ['18100004','16100048']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+      - name: Download authentic full-table CSV from StatCan WDS
+        run: python etl/download_statcan.py --tables ${{ matrix.pid }} --max-mb 600
+      - name: Prepare 2020-2025 series candidates
+        run: python etl/prepare_statcan.py --tables ${{ matrix.pid }}
+      - name: Show series profile
+        run: cat data/processed/${{ matrix.pid }}_profile.json
+      - name: Upload candidate dataset and provenance
+        uses: actions/upload-artifact@v4
+        with:
+          name: statcan-discovery-${{ matrix.pid }}
+          path: |
+            data/raw/manifest.json
+            data/processed/${{ matrix.pid }}_profile.json
+            data/processed/${{ matrix.pid }}_staging.csv
+          retention-days: 7
