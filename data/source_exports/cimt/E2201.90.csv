@@ -132,6 +132,14 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2022-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Turks and Caicos Islands",N/A,216,359,Volume in litres
 2022-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Turks and Caicos Islands",N/A,450,750,Volume in litres
 2024-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Turks and Caicos Islands",N/A,450,1920,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Jamaica",N/A,1397,2329,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,10880,26496,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Arizona,4897,6000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Maine,10226,54000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Michigan,41720,203000,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New Jersey,22135,47000,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Sweden",N/A,159000,265000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Kazakhstan",N/A,31776,52123,Volume in litres
 2023-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,3387,5173,Volume in litres
 2024-02-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,253,480,Volume in litres
 2023-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Arizona,19083,19000,Volume in litres
@@ -271,7 +279,13 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2025-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Barbados",N/A,3024,5040,Volume in litres
 2023-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Turks and Caicos Islands",N/A,675,2880,Volume in litres
 2022-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Sint Maarten (Dutch part)",N/A,77923,129704,Volume in litres
-2022-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Florida,50344,154000,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Minnesota,4883,19000,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Missouri,40992,38000,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Nevada,17943,1000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",South Carolina,5578,1000,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,761836,3618000,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Wisconsin,12725,19000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,45609,84412,Volume in litres
 2023-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,7679,11156,Volume in litres
 2023-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,6885,9905,Volume in litres
 2024-01-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,14896,33091,Volume in litres
@@ -290,6 +304,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2025-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",California,19868,17000,Volume in litres
 2020-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Connecticut,4259,4000,Volume in litres
 2021-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Florida,35365,110000,Volume in litres
+2022-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Florida,50344,154000,Volume in litres
 2023-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Florida,66533,351000,Volume in litres
 2024-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Florida,84492,120000,Volume in litres
 2025-01-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Florida,3281,1000,Volume in litres
@@ -337,7 +352,6 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2020-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New York,263831,335000,Volume in litres
 2025-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New York,9793,21000,Volume in litres
 2021-01-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New York,59310,36000,Volume in litres
-2023-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Puerto Rico,16690,26000,Volume in litres
 2020-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",North Dakota,49056,111000,Volume in litres
 2021-01-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",North Dakota,21168,76000,Volume in litres
 2022-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Oregon,60078,239000,Volume in litres
@@ -350,6 +364,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Pennsylvania,4942,1000,Volume in litres
 2021-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Puerto Rico,11826,4000,Volume in litres
 2022-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Puerto Rico,10749,22000,Volume in litres
+2023-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Puerto Rico,16690,26000,Volume in litres
 2025-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Puerto Rico,7992,21000,Volume in litres
 2020-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Rhode Island,4862,4000,Volume in litres
 2020-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",South Dakota,21214,82000,Volume in litres
@@ -397,7 +412,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,668992,1096227,Volume in litres
 2024-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,427516,695296,Volume in litres
 2024-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,371980,585861,Volume in litres
-2025-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Thailand",N/A,2319,3833,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,4378,7296,Volume in litres
 2022-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Japan",N/A,15272,20790,Volume in litres
 2021-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Korea, South",N/A,52406,69170,Volume in litres
 2021-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Korea, South",N/A,30069,51673,Volume in litres
@@ -408,6 +423,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-01-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Taiwan",N/A,7368,13574,Volume in litres
 2025-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Taiwan",N/A,43015,70470,Volume in litres
 2025-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Taiwan",N/A,5490,9151,Volume in litres
+2025-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Thailand",N/A,2319,3833,Volume in litres
 2020-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Bahamas",N/A,4278,11477,Volume in litres
 2021-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Bahamas",N/A,5708,15436,Volume in litres
 2023-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Bahamas",N/A,6934,12190,Volume in litres
@@ -417,6 +433,14 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Turks and Caicos Islands",N/A,900,3840,Volume in litres
 2025-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Turks and Caicos Islands",N/A,649,1082,Volume in litres
 2021-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Martin (French part)",N/A,4455,21954,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",California,15041,19000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Florida,49020,209000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New Jersey,6576,23000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",South Carolina,22777,121000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,612491,5478000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Sweden",N/A,6118,10197,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,218233,370023,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Barbados",N/A,4828,19152,Volume in litres
 2023-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,5332,7900,Volume in litres
 2023-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,9661,14992,Volume in litres
 2023-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,229,413,Volume in litres
@@ -510,7 +534,6 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Texas,25338,60000,Volume in litres
 2020-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,1238969,6244000,Volume in litres
 2021-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,777783,3867000,Volume in litres
-2022-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"France",N/A,5724,8760,Volume in litres
 2022-01-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,9632687,30051000,Volume in litres
 2022-02-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,313574,1334000,Volume in litres
 2022-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,364886,1912000,Volume in litres
@@ -526,6 +549,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"France",N/A,1386,2328,Volume in litres
 2022-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"France",N/A,2814,3960,Volume in litres
 2022-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"France",N/A,185,360,Volume in litres
+2022-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"France",N/A,5724,8760,Volume in litres
 2023-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Germany",N/A,38,64,Volume in litres
 2021-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Norway",N/A,14,25,Volume in litres
 2022-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Sweden",N/A,2692,4487,Volume in litres
@@ -561,6 +585,13 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Turks and Caicos Islands",N/A,675,1126,Volume in litres
 2022-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Sint Maarten (Dutch part)",N/A,36731,60330,Volume in litres
 2022-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Sint Maarten (Dutch part)",N/A,9063,14674,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Oregon,60770,290000,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Oregon,124246,556000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Pennsylvania,33721,179000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Puerto Rico,11472,21000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Texas,23318,39000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Korea, South",N/A,75719,76205,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Bahamas",N/A,2422,3470,Volume in litres
 2023-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,7920,12268,Volume in litres
 2024-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,5222,8528,Volume in litres
 2024-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,2224,6109,Volume in litres
@@ -620,7 +651,6 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2025-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New York,7202,23000,Volume in litres
 2020-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New York,29948,18000,Volume in litres
 2023-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",North Carolina,5936,20000,Volume in litres
-2024-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Puerto Rico,11437,22000,Volume in litres
 2024-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",North Carolina,12802,20000,Volume in litres
 2020-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",North Dakota,21221,64000,Volume in litres
 2020-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",North Dakota,11777,42000,Volume in litres
@@ -638,7 +668,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2020-01-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Puerto Rico,11140,20000,Volume in litres
 2022-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Puerto Rico,12176,22000,Volume in litres
 2023-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Puerto Rico,17229,22000,Volume in litres
-2021-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,1034408,5056000,Volume in litres
+2024-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Puerto Rico,11437,22000,Volume in litres
 2020-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",South Dakota,5453,20000,Volume in litres
 2022-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",South Dakota,43029,157000,Volume in litres
 2023-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",South Dakota,18300,63000,Volume in litres
@@ -647,6 +677,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Texas,28966,40000,Volume in litres
 2025-02-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Utah,26118,19000,Volume in litres
 2020-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,358441,1826000,Volume in litres
+2021-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,1034408,5056000,Volume in litres
 2021-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,429698,2296000,Volume in litres
 2022-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,271704,1248000,Volume in litres
 2024-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,86288,323000,Volume in litres
@@ -683,6 +714,14 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Guyana",N/A,68,114,Volume in litres
 2023-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Bahamas",N/A,4330,7244,Volume in litres
 2021-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Vincent and the Grenadines",N/A,287,478,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Illinois,13320,19000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Maryland,27214,40000,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Michigan,18869,63000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New Mexico,11054,14000,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Pennsylvania,13774,19000,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",South Carolina,11049,2000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Tennessee,17245,25000,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"France",N/A,2625,10346,Volume in litres
 2023-02-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,663,1290,Volume in litres
 2024-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,408,696,Volume in litres
 2025-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,976,3112,Volume in litres
@@ -785,7 +824,6 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"France",N/A,8512,13392,Volume in litres
 2021-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"France",N/A,610,1260,Volume in litres
 2025-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"France",N/A,2715,10452,Volume in litres
-2025-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,248879,402942,Volume in litres
 2022-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Sweden",N/A,1346,2243,Volume in litres
 2024-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Sweden",N/A,2915,4858,Volume in litres
 2024-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Sweden",N/A,2700,4500,Volume in litres
@@ -797,6 +835,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,78250,150569,Volume in litres
 2023-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,680996,1012068,Volume in litres
 2024-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,215558,285078,Volume in litres
+2025-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,248879,402942,Volume in litres
 2020-02-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Taiwan",N/A,71280,237600,Volume in litres
 2021-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Taiwan",N/A,24397,46512,Volume in litres
 2021-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Taiwan",N/A,7006,11677,Volume in litres
@@ -807,6 +846,13 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Barbados",N/A,4343,21686,Volume in litres
 2024-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Barbados",N/A,4882,8172,Volume in litres
 2021-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Turks and Caicos Islands",N/A,383,638,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Colorado,3674,1000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Connecticut,7406,2000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Minnesota,20196,77000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",South Dakota,4752,19000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"France",N/A,1589,5100,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Korea, South",N/A,15572,18432,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Taiwan",N/A,44684,73445,Volume in litres
 2023-01-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,7305,11224,Volume in litres
 2023-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,1227,2378,Volume in litres
 2024-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,314,542,Volume in litres
@@ -825,7 +871,6 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",California,32699,5000,Volume in litres
 2020-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Connecticut,3117,2000,Volume in litres
 2022-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Florida,28852,88000,Volume in litres
-2024-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Massachusetts,22542,72000,Volume in litres
 2022-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Florida,58112,176000,Volume in litres
 2022-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Florida,67438,198000,Volume in litres
 2022-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Florida,58036,3000,Volume in litres
@@ -840,7 +885,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2025-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Illinois,19795,19000,Volume in litres
 2022-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Kentucky,5661,1000,Volume in litres
 2020-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Massachusetts,15212,44000,Volume in litres
-2025-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Minnesota,15958,57000,Volume in litres
+2024-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Massachusetts,22542,72000,Volume in litres
 2023-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Michigan,46109,135000,Volume in litres
 2025-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Michigan,7885,10000,Volume in litres
 2020-02-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Michigan,80294,54000,Volume in litres
@@ -854,7 +899,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-02-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Minnesota,52975,187000,Volume in litres
 2024-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Minnesota,49479,173000,Volume in litres
 2025-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Minnesota,33635,176000,Volume in litres
-2024-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",North Carolina,86375,474000,Volume in litres
+2025-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Minnesota,15958,57000,Volume in litres
 2024-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Missouri,21304,19000,Volume in litres
 2025-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Missouri,22336,19000,Volume in litres
 2020-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Nebraska,4754,20000,Volume in litres
@@ -865,6 +910,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-01-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New Jersey,12338,3000,Volume in litres
 2020-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New York,125199,281000,Volume in litres
 2020-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New York,54473,44000,Volume in litres
+2024-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",North Carolina,86375,474000,Volume in litres
 2020-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",North Dakota,11896,41000,Volume in litres
 2020-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",North Dakota,5801,21000,Volume in litres
 2020-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",North Dakota,5435,19000,Volume in litres
@@ -926,14 +972,13 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,247110,408984,Volume in litres
 2023-07-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,532941,829901,Volume in litres
 2025-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,183841,302075,Volume in litres
-2025-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Thailand",N/A,46882,79885,Volume in litres
-2021-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Martin (French part)",N/A,5919,9945,Volume in litres
 2020-01-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Japan",N/A,63173,93312,Volume in litres
 2024-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Japan",N/A,188,314,Volume in litres
 2024-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Korea, South",N/A,96265,100621,Volume in litres
 2025-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Korea, South",N/A,77705,129789,Volume in litres
 2021-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Taiwan",N/A,6759,13574,Volume in litres
 2025-01-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Taiwan",N/A,33971,64434,Volume in litres
+2025-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Thailand",N/A,46882,79885,Volume in litres
 2021-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Viet Nam",N/A,12316,24840,Volume in litres
 2021-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Australia",N/A,38,64,Volume in litres
 2025-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Australia",N/A,16236,27428,Volume in litres
@@ -947,6 +992,13 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2020-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"El Salvador",N/A,5747,9578,Volume in litres
 2022-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Sint Maarten (Dutch part)",N/A,36840,60474,Volume in litres
 2022-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Sint Maarten (Dutch part)",N/A,38552,65452,Volume in litres
+2021-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Martin (French part)",N/A,5919,9945,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Florida,36770,2000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Illinois,19609,21000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Minnesota,23232,65000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New Jersey,16333,42000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Oregon,74802,347000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saudi Arabia",N/A,66789,110817,Volume in litres
 2023-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,6244,9156,Volume in litres
 2024-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,6076,9022,Volume in litres
 2024-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,11150,14584,Volume in litres
@@ -1096,18 +1148,22 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,527486,688090,Volume in litres
 2025-02-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,45718,62400,Volume in litres
 2025-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"China",N/A,258407,422890,Volume in litres
-2025-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Thailand",N/A,17750,29583,Volume in litres
 2021-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Japan",N/A,14322,20790,Volume in litres
 2023-01-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Japan",N/A,15532,20790,Volume in litres
 2020-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Philippines",N/A,1903,3171,Volume in litres
 2021-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Taiwan",N/A,13397,24878,Volume in litres
 2022-08-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Thailand",N/A,20515,33906,Volume in litres
+2025-03-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Thailand",N/A,17750,29583,Volume in litres
 2022-09-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Bahamas",N/A,3360,10029,Volume in litres
 2024-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Bahamas",N/A,5558,11289,Volume in litres
 2020-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Bermuda",N/A,1920,3299,Volume in litres
 2020-04-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Barbados",N/A,4746,17976,Volume in litres
 2021-05-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Barbados",N/A,4249,7298,Volume in litres
 2025-06-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"Barbados",N/A,479,809,Volume in litres
+2025-12-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Arizona,15184,21000,Volume in litres
+2025-10-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Missouri,41558,38000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",New Mexico,11103,14000,Volume in litres
+2025-11-01,"2201.90.00 - Ice and snow and potable waters, nes, not cont sugar or sweeteners nor flavoured",Canada,"United States",Washington,639443,2960000,Volume in litres
 
 
 How to cite: Statistics Canada. Canadian International Merchandise Trade Web Application

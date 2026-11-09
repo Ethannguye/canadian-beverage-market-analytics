@@ -9,6 +9,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",California,54864,17172,Volume in litres
 2023-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",California,47736,37796,Volume in litres
 2023-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",California,12398,17280,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",California,9735,3089,Volume in litres
 2022-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Delaware,12246,756,Volume in litres
 2025-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,80828,98574,Volume in litres
 2025-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,82032,93373,Volume in litres
@@ -43,12 +44,14 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,11358,874,Volume in litres
 2023-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,69843,112688,Volume in litres
 2024-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,42748,73149,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,35115,34865,Volume in litres
 2020-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,171803,360284,Volume in litres
 2021-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,461658,1830534,Volume in litres
 2021-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,358236,998116,Volume in litres
 2023-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,379572,715806,Volume in litres
 2023-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,74051,84604,Volume in litres
 2024-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,64495,78101,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,17326,19305,Volume in litres
 2024-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,153488,50861,Volume in litres
 2023-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",North Dakota,3475,1596,Volume in litres
 2023-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,3681,5374,Volume in litres
@@ -64,10 +67,13 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,12330,17246,Volume in litres
 2025-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,47693,66700,Volume in litres
 2025-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,38434,69207,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,17849,32923,Volume in litres
 2023-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,140783,209622,Volume in litres
 2024-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,21821,34656,Volume in litres
 2025-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,94718,103932,Volume in litres
 2025-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,56180,64314,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,147324,157596,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,211355,228882,Volume in litres
 2021-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Washington,11968,9240,Volume in litres
 2020-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United Kingdom",N/A,5174,4728,Volume in litres
 2020-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United Kingdom",N/A,651,1008,Volume in litres
@@ -84,7 +90,6 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2022-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Sweden",N/A,6491,18900,Volume in litres
 2025-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Switzerland",N/A,2400,2480,Volume in litres
 2021-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Romania",N/A,18250,27861,Volume in litres
-2025-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,21798,32928,Volume in litres
 2020-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Russian Federation",N/A,8707,13219,Volume in litres
 2024-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Jordan",N/A,1268,1879,Volume in litres
 2023-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Kuwait",N/A,3107,4510,Volume in litres
@@ -105,6 +110,8 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,439305,671782,Volume in litres
 2024-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,109059,182290,Volume in litres
 2025-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,330575,489741,Volume in litres
+2025-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,21798,32928,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,329600,488296,Volume in litres
 2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Japan",N/A,536752,1442325,Volume in litres
 2021-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Japan",N/A,30417,61637,Volume in litres
 2022-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Japan",N/A,31259,30402,Volume in litres
@@ -114,11 +121,11 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,120701,125453,Volume in litres
 2024-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,67558,62726,Volume in litres
 2025-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,75959,114062,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,156150,228989,Volume in litres
 2020-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Philippines",N/A,133,194,Volume in litres
 2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Philippines",N/A,18281,26662,Volume in litres
 2020-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,119953,345831,Volume in litres
 2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,232603,620574,Volume in litres
-2023-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Costa Rica",N/A,1000,1481,Volume in litres
 2021-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,114937,282600,Volume in litres
 2021-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,25963,75600,Volume in litres
 2022-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,32463,94320,Volume in litres
@@ -131,6 +138,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2020-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Australia",N/A,60267,89864,Volume in litres
 2025-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Australia",N/A,19003,27860,Volume in litres
 2020-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Guam",N/A,5243,10837,Volume in litres
+2023-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Panama",N/A,4465,6723,Volume in litres
 2022-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Bermuda",N/A,63,64,Volume in litres
 2023-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Bermuda",N/A,804,1208,Volume in litres
 2020-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Barbados",N/A,797,3289,Volume in litres
@@ -141,8 +149,9 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Anguilla",N/A,452,829,Volume in litres
 2024-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Anguilla",N/A,658,1236,Volume in litres
 2025-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Anguilla",N/A,704,916,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Anguilla",N/A,773,826,Volume in litres
 2022-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Costa Rica",N/A,2500,3704,Volume in litres
-2023-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Panama",N/A,4465,6723,Volume in litres
+2023-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Costa Rica",N/A,1000,1481,Volume in litres
 2023-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Cuba",N/A,57,85,Volume in litres
 2020-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"El Salvador",N/A,130,264,Volume in litres
 2021-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Haiti",N/A,200,296,Volume in litres
@@ -163,6 +172,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,118197,116208,Volume in litres
 2024-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,292412,288138,Volume in litres
 2024-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,230191,225008,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,61518,50739,Volume in litres
 2024-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Georgia,8581,13440,Volume in litres
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Illinois,6294,28800,Volume in litres
 2021-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Illinois,11820,58336,Volume in litres
@@ -200,8 +210,8 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2025-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,49172,34674,Volume in litres
 2025-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,44827,36480,Volume in litres
 2025-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,59142,54720,Volume in litres
-2023-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,72898,226021,Volume in litres
 2025-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Montana,12202,500,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Montana,99708,3500,Volume in litres
 2020-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Nevada,7443,24000,Volume in litres
 2021-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Nevada,7282,2400,Volume in litres
 2021-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,18281,1018,Volume in litres
@@ -209,6 +219,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,62198,88786,Volume in litres
 2024-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,97039,124757,Volume in litres
 2025-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,30747,43741,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,129814,148768,Volume in litres
 2020-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,494679,1513925,Volume in litres
 2021-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,223380,1026691,Volume in litres
 2021-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,526586,1881673,Volume in litres
@@ -217,6 +228,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2022-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,506659,1645263,Volume in litres
 2023-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,280458,741644,Volume in litres
 2023-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,49698,180297,Volume in litres
+2023-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,72898,226021,Volume in litres
 2024-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,44891,68832,Volume in litres
 2020-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,4259,3264,Volume in litres
 2021-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,10433,17280,Volume in litres
@@ -226,6 +238,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,3075,120,Volume in litres
 2025-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,15755,17280,Volume in litres
 2025-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,20043,3800,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,15752,15336,Volume in litres
 2023-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Tennessee,4645,1544,Volume in litres
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,60164,25552,Volume in litres
 2023-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,57443,55066,Volume in litres
@@ -234,7 +247,6 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,21033,35165,Volume in litres
 2024-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,47248,63734,Volume in litres
 2023-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,363808,874380,Volume in litres
-2025-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Georgia",N/A,112407,166962,Volume in litres
 2020-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United Kingdom",N/A,45855,54720,Volume in litres
 2021-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United Kingdom",N/A,4833,6655,Volume in litres
 2022-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United Kingdom",N/A,980,1226,Volume in litres
@@ -247,12 +259,14 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2022-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,142,211,Volume in litres
 2025-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,395,584,Volume in litres
 2025-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,667,986,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,557,825,Volume in litres
 2020-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Germany",N/A,8400,10080,Volume in litres
 2021-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Netherlands",N/A,519,568,Volume in litres
 2020-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Spain",N/A,270,408,Volume in litres
 2022-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Spain",N/A,2763,4355,Volume in litres
 2022-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Romania",N/A,18905,28036,Volume in litres
 2022-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Romania",N/A,19979,28716,Volume in litres
+2025-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Georgia",N/A,112407,166962,Volume in litres
 2020-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Russian Federation",N/A,8765,13131,Volume in litres
 2021-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Russian Federation",N/A,8381,12494,Volume in litres
 2022-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Russian Federation",N/A,8739,12960,Volume in litres
@@ -278,6 +292,8 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,26172,43290,Volume in litres
 2025-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,6480,9600,Volume in litres
 2025-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,172300,266874,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,164117,243136,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,328917,487284,Volume in litres
 2020-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Japan",N/A,55128,81671,Volume in litres
 2020-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Japan",N/A,11271,17048,Volume in litres
 2020-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Japan",N/A,78679,184054,Volume in litres
@@ -314,7 +330,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Cuba",N/A,5940,18880,Volume in litres
 2024-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Guatemala",N/A,4362,6513,Volume in litres
 2020-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Sint Maarten (Dutch part)",N/A,1979,2951,Volume in litres
-2024-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,416400,513000,Volume in litres
+2023-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,16370,34200,Volume in litres
 2023-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,560,829,Volume in litres
 2023-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,322,477,Volume in litres
 2024-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,9668,22524,Volume in litres
@@ -329,8 +345,9 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2020-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Colorado,3194,1404,Volume in litres
 2022-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Delaware,23780,1728,Volume in litres
 2021-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,10354,738,Volume in litres
-2023-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,16370,34200,Volume in litres
+2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Iowa,3450,660,Volume in litres
 2023-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,58485,63701,Volume in litres
+2024-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,416400,513000,Volume in litres
 2025-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,111949,112696,Volume in litres
 2025-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,6853,9972,Volume in litres
 2022-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,12003,5940,Volume in litres
@@ -354,7 +371,6 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2020-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Indiana,6994,482685,Volume in litres
 2021-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Indiana,7622,18208,Volume in litres
 2021-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Indiana,6669,18208,Volume in litres
-2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Iowa,3450,660,Volume in litres
 2022-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Maryland,8556,3544,Volume in litres
 2023-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Maryland,6172,5940,Volume in litres
 2020-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,10907,21081,Volume in litres
@@ -368,6 +384,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,90805,76800,Volume in litres
 2023-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,32728,36480,Volume in litres
 2025-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,41648,36480,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Montana,14308,500,Volume in litres
 2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Nevada,7687,2400,Volume in litres
 2020-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Nevada,7594,2400,Volume in litres
 2021-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Nevada,5287,1800,Volume in litres
@@ -387,6 +404,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2020-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,8353,5110,Volume in litres
 2022-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,6749,18208,Volume in litres
 2024-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,3159,4702,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,5632,7041,Volume in litres
 2022-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,19116,5508,Volume in litres
 2021-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Oregon,8146,3903,Volume in litres
 2022-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Oregon,44721,1730,Volume in litres
@@ -403,6 +421,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,7999,15947,Volume in litres
 2024-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,8372,17021,Volume in litres
 2024-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,18874,18735,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,23010,35926,Volume in litres
 2021-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,79117,13832,Volume in litres
 2024-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,92399,109002,Volume in litres
 2025-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,184056,203454,Volume in litres
@@ -412,6 +431,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,225,340,Volume in litres
 2021-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,619,917,Volume in litres
 2021-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Netherlands",N/A,2092,3360,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Netherlands",N/A,300,537,Volume in litres
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Portugal",N/A,136,207,Volume in litres
 2022-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hungary",N/A,34466,50892,Volume in litres
 2022-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Macedonia, North",N/A,8340,12355,Volume in litres
@@ -423,6 +443,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Türkiye",N/A,40116,58529,Volume in litres
 2025-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Nigeria",N/A,130,193,Volume in litres
 2023-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hong Kong",N/A,5128,6960,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hong Kong",N/A,23174,34332,Volume in litres
 2022-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Singapore",N/A,3613,5271,Volume in litres
 2021-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Laos",N/A,9322,13810,Volume in litres
 2023-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Laos",N/A,2350,3481,Volume in litres
@@ -451,9 +472,12 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,70548,168912,Volume in litres
 2024-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,97390,282960,Volume in litres
 2025-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,110417,319860,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,103908,301320,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,77936,225900,Volume in litres
 2024-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Peru",N/A,90,133,Volume in litres
 2022-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Bermuda",N/A,960,1371,Volume in litres
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Virgin Islands, British",N/A,1791,2735,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Cayman Islands",N/A,793,1175,Volume in litres
 2021-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Trinidad and Tobago",N/A,5059,7636,Volume in litres
 2020-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Anguilla",N/A,62,90,Volume in litres
 2021-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Anguilla",N/A,60,90,Volume in litres
@@ -485,6 +509,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Indiana,11413,36416,Volume in litres
 2021-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Indiana,13269,19000,Volume in litres
 2021-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Indiana,7990,18208,Volume in litres
+2023-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,45292,36480,Volume in litres
 2020-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Louisiana,15050,7097,Volume in litres
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Massachusetts,25686,17664,Volume in litres
 2020-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,48294,411577,Volume in litres
@@ -504,18 +529,17 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2022-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,18850,19200,Volume in litres
 2022-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,59181,45600,Volume in litres
 2023-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,64820,54720,Volume in litres
-2023-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,45292,36480,Volume in litres
 2024-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,21210,4560,Volume in litres
 2024-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,38647,27240,Volume in litres
 2024-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,21253,18240,Volume in litres
 2025-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,53958,34761,Volume in litres
-2022-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,237648,899868,Volume in litres
 2020-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Nevada,7720,2400,Volume in litres
 2021-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Nevada,7137,2400,Volume in litres
 2023-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Nevada,5094,1260,Volume in litres
 2021-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,20096,12374,Volume in litres
 2024-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,20319,36288,Volume in litres
 2025-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,26814,32476,Volume in litres
+2022-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,237648,899868,Volume in litres
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,569784,2085971,Volume in litres
 2021-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,249496,1084115,Volume in litres
 2022-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,257700,834917,Volume in litres
@@ -592,6 +616,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2020-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,117032,324234,Volume in litres
 2022-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,108163,324216,Volume in litres
 2024-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,41266,112500,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,64945,188280,Volume in litres
 2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Australia",N/A,4906,7265,Volume in litres
 2020-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Chile",N/A,270,401,Volume in litres
 2020-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Chile",N/A,132,200,Volume in litres
@@ -615,6 +640,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",California,44129,37548,Volume in litres
 2025-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",California,18530,17496,Volume in litres
 2025-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",California,15686,17280,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",California,25709,6408,Volume in litres
 2024-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Delaware,18078,1602,Volume in litres
 2023-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,22505,4300,Volume in litres
 2023-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,50931,4482,Volume in litres
@@ -628,7 +654,6 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Illinois,362167,1332864,Volume in litres
 2021-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Indiana,7294,18208,Volume in litres
 2021-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Kentucky,5820,28800,Volume in litres
-2020-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,27647,1440,Volume in litres
 2021-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,33581,38453,Volume in litres
 2021-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,77712,220542,Volume in litres
 2021-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,18049,38001,Volume in litres
@@ -637,7 +662,9 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,28416,10955,Volume in litres
 2023-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,23673,11460,Volume in litres
 2025-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,55898,29413,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,34956,21500,Volume in litres
 2024-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Minnesota,4168,4102,Volume in litres
+2020-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,27647,1440,Volume in litres
 2020-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,26432,1680,Volume in litres
 2021-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,26470,1140,Volume in litres
 2021-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,19012,4560,Volume in litres
@@ -656,6 +683,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,15905,20140,Volume in litres
 2025-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,22600,18513,Volume in litres
 2020-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,318726,1231872,Volume in litres
+2022-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,7503,18208,Volume in litres
 2020-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,333091,1469181,Volume in litres
 2020-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,245651,976921,Volume in litres
 2022-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,382881,1245907,Volume in litres
@@ -665,9 +693,9 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",North Dakota,3501,1436,Volume in litres
 2021-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,7349,18208,Volume in litres
 2022-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,7589,18208,Volume in litres
-2022-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,7503,18208,Volume in litres
 2023-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,2708,4030,Volume in litres
 2024-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,3727,5376,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,15270,18312,Volume in litres
 2020-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,12792,16387,Volume in litres
 2020-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,41212,17886,Volume in litres
 2021-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,23060,28750,Volume in litres
@@ -678,6 +706,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,4413,1560,Volume in litres
 2025-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,29643,30384,Volume in litres
 2025-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,15071,720,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,18907,1836,Volume in litres
 2021-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Puerto Rico,11857,21168,Volume in litres
 2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,26143,12775,Volume in litres
 2023-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,51509,39528,Volume in litres
@@ -686,14 +715,15 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2025-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,34685,34049,Volume in litres
 2020-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,38515,15967,Volume in litres
 2021-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,1063628,689805,Volume in litres
+2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Italy",N/A,68400,101333,Volume in litres
 2024-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,28574,36828,Volume in litres
 2025-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",District of Columbia,9488,3591,Volume in litres
 2024-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Belgium",N/A,2368,3499,Volume in litres
 2021-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,79,117,Volume in litres
 2022-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,122,181,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,513,761,Volume in litres
 2020-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Germany",N/A,258,381,Volume in litres
 2022-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Iceland",N/A,608,900,Volume in litres
-2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Italy",N/A,68400,101333,Volume in litres
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Spain",N/A,136,207,Volume in litres
 2022-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Spain",N/A,284,520,Volume in litres
 2020-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Czechia",N/A,8637,12796,Volume in litres
@@ -728,6 +758,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,129784,226863,Volume in litres
 2021-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,39917,47628,Volume in litres
 2021-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,38556,44907,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Chile",N/A,1866,3254,Volume in litres
 2023-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,21754,19109,Volume in litres
 2024-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,133553,137094,Volume in litres
 2020-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Philippines",N/A,282,394,Volume in litres
@@ -759,11 +790,11 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2025-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",California,9438,17680,Volume in litres
 2021-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Colorado,19682,18739,Volume in litres
 2021-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Colorado,18652,4800,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Colorado,21033,18240,Volume in litres
 2021-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Delaware,3559,3876,Volume in litres
 2023-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Delaware,12920,756,Volume in litres
 2022-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,8694,756,Volume in litres
 2023-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,280062,307962,Volume in litres
-2022-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Kentucky,6317,28800,Volume in litres
 2025-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,5270,3990,Volume in litres
 2022-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,17246,5148,Volume in litres
 2023-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Georgia,7709,639,Volume in litres
@@ -774,6 +805,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2022-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Illinois,69980,13219,Volume in litres
 2024-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Illinois,459104,1834560,Volume in litres
 2020-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Kentucky,4623,28800,Volume in litres
+2022-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Kentucky,6317,28800,Volume in litres
 2022-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Kentucky,6298,28800,Volume in litres
 2024-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Kentucky,22133,18240,Volume in litres
 2020-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,3272,8976,Volume in litres
@@ -783,9 +815,13 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,66251,37476,Volume in litres
 2024-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,58469,38452,Volume in litres
 2025-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,3238,2557,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,13375,5651,Volume in litres
 2022-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,14103,4560,Volume in litres
+2020-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,233459,737461,Volume in litres
 2023-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,38808,34656,Volume in litres
 2023-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,67473,53760,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,64653,54720,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,19806,18240,Volume in litres
 2020-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Nevada,5806,1800,Volume in litres
 2020-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Nevada,8106,2400,Volume in litres
 2020-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Nevada,7545,2400,Volume in litres
@@ -797,7 +833,6 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,10469,17021,Volume in litres
 2025-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,132826,161670,Volume in litres
 2025-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,42514,70330,Volume in litres
-2020-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,233459,737461,Volume in litres
 2020-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,527549,1639620,Volume in litres
 2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,296144,1111106,Volume in litres
 2021-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,199997,973768,Volume in litres
@@ -810,6 +845,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,47976,24027,Volume in litres
 2025-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,111658,33958,Volume in litres
 2025-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,7448,2808,Volume in litres
+2023-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,62541,102060,Volume in litres
 2022-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Oregon,33255,24632,Volume in litres
 2020-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,10895,17280,Volume in litres
 2022-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,15195,4638,Volume in litres
@@ -823,12 +859,12 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,242842,529940,Volume in litres
 2025-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,9335,17021,Volume in litres
 2025-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,40401,64505,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,62011,89456,Volume in litres
 2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,24913,9289,Volume in litres
 2021-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,480370,118918,Volume in litres
 2021-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,1266203,585612,Volume in litres
 2023-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,123340,273600,Volume in litres
 2023-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,4762,11700,Volume in litres
-2023-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,62541,102060,Volume in litres
 2024-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,62097,90220,Volume in litres
 2025-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,143809,182058,Volume in litres
 2020-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United Kingdom",N/A,4303,3961,Volume in litres
@@ -843,14 +879,17 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2022-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,253,374,Volume in litres
 2024-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,1061,1571,Volume in litres
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Bulgaria",N/A,136,207,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Jordan",N/A,2151,3187,Volume in litres
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Lebanon",N/A,136,207,Volume in litres
 2022-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Ghana",N/A,2953,4388,Volume in litres
 2020-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Burkina Faso",N/A,8,10,Volume in litres
 2020-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hong Kong",N/A,1730,2563,Volume in litres
 2024-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hong Kong",N/A,5266,7801,Volume in litres
 2025-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hong Kong",N/A,3826,4768,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hong Kong",N/A,2904,4303,Volume in litres
 2022-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Malaysia",N/A,98,145,Volume in litres
 2022-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Malaysia",N/A,2872,2688,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Malaysia",N/A,4051,3600,Volume in litres
 2021-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Singapore",N/A,3118,4504,Volume in litres
 2020-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Laos",N/A,4954,7367,Volume in litres
 2022-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Laos",N/A,5277,7928,Volume in litres
@@ -867,6 +906,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,112140,165343,Volume in litres
 2023-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,40234,59605,Volume in litres
 2024-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,4452,6595,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,30329,45756,Volume in litres
 2020-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Philippines",N/A,3460,3555,Volume in litres
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Philippines",N/A,136,207,Volume in litres
 2020-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,156770,467820,Volume in litres
@@ -881,6 +921,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2022-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Barbados",N/A,1266,1867,Volume in litres
 2024-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Trinidad and Tobago",N/A,3319,4840,Volume in litres
 2021-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Anguilla",N/A,60,90,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Antigua and Barbuda",N/A,75,111,Volume in litres
 2023-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Honduras",N/A,70,104,Volume in litres
 2023-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Mexico",N/A,51514,127008,Volume in litres
 2023-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Saint Pierre and Miquelon",N/A,198,293,Volume in litres
@@ -946,6 +987,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,55618,78840,Volume in litres
 2024-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,23061,35165,Volume in litres
 2025-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,20690,34042,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,55932,35068,Volume in litres
 2022-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,21441,15246,Volume in litres
 2020-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,629108,2362143,Volume in litres
 2021-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,440719,1421417,Volume in litres
@@ -975,12 +1017,12 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2025-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,38370,45112,Volume in litres
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,28154,11405,Volume in litres
 2021-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,22927,14256,Volume in litres
+2025-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Germany",N/A,68500,111858,Volume in litres
 2023-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,19032,17400,Volume in litres
 2023-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,89475,102978,Volume in litres
 2024-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,209098,299692,Volume in litres
 2024-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,410019,512367,Volume in litres
 2024-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,103271,121280,Volume in litres
-2025-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Germany",N/A,68500,111858,Volume in litres
 2022-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Washington,19906,21168,Volume in litres
 2024-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Wisconsin,14154,17040,Volume in litres
 2022-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United Kingdom",N/A,4335,4966,Volume in litres
@@ -992,6 +1034,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Germany",N/A,60621,89986,Volume in litres
 2020-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Italy",N/A,2725,2586,Volume in litres
 2020-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Italy",N/A,270,408,Volume in litres
+2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Laos",N/A,4870,7214,Volume in litres
 2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Netherlands",N/A,265,392,Volume in litres
 2020-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hungary",N/A,32343,48503,Volume in litres
 2021-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hungary",N/A,32278,46982,Volume in litres
@@ -1006,7 +1049,6 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hong Kong",N/A,8580,12711,Volume in litres
 2021-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hong Kong",N/A,3284,4386,Volume in litres
 2023-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hong Kong",N/A,36852,54595,Volume in litres
-2020-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Laos",N/A,4870,7214,Volume in litres
 2022-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Laos",N/A,3426,4988,Volume in litres
 2023-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Laos",N/A,9966,15022,Volume in litres
 2020-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,101994,244969,Volume in litres
@@ -1020,7 +1062,6 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2022-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,35913,47228,Volume in litres
 2024-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,273123,404627,Volume in litres
 2025-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,185013,278274,Volume in litres
-2020-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,196951,483547,Volume in litres
 2021-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Japan",N/A,8928,24084,Volume in litres
 2022-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Japan",N/A,21912,32558,Volume in litres
 2023-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Japan",N/A,19687,18144,Volume in litres
@@ -1031,6 +1072,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,67558,62726,Volume in litres
 2025-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,51113,75114,Volume in litres
 2020-02-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,53900,140220,Volume in litres
+2020-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,196951,483547,Volume in litres
 2020-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,80899,230340,Volume in litres
 2021-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,136393,395100,Volume in litres
 2022-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,52000,149760,Volume in litres
@@ -1064,6 +1106,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2023-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,68316,154800,Volume in litres
 2024-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,401160,460674,Volume in litres
 2025-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,54355,50663,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,163441,154075,Volume in litres
 2022-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,23060,11385,Volume in litres
 2022-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Florida,34441,11880,Volume in litres
 2022-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Georgia,19420,18000,Volume in litres
@@ -1081,12 +1124,14 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Indiana,14995,18242,Volume in litres
 2022-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Maryland,4875,3960,Volume in litres
 2020-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Massachusetts,6493,16424,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Massachusetts,2885,2052,Volume in litres
 2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,10252,8520,Volume in litres
 2021-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,33317,23538,Volume in litres
 2022-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,171542,108740,Volume in litres
 2022-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,25591,13911,Volume in litres
 2022-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,7840,5592,Volume in litres
 2025-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,15821,5147,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Michigan,48074,21021,Volume in litres
 2025-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Minnesota,3099,4030,Volume in litres
 2021-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,27917,1440,Volume in litres
 2023-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Missouri,42227,36480,Volume in litres
@@ -1106,9 +1151,9 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2025-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New Jersey,32056,35757,Volume in litres
 2021-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,345621,1212683,Volume in litres
 2021-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,355682,1508720,Volume in litres
-2023-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,59538,78706,Volume in litres
 2024-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,72088,93353,Volume in litres
 2025-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,7844,5624,Volume in litres
+2025-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",New York,58560,47872,Volume in litres
 2025-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",North Carolina,4342,4030,Volume in litres
 2022-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,2810,4030,Volume in litres
 2024-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Ohio,4541,6045,Volume in litres
@@ -1117,10 +1162,11 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2020-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,22935,9923,Volume in litres
 2021-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,21504,28965,Volume in litres
 2022-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,88583,37600,Volume in litres
-2023-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Washington,25361,18744,Volume in litres
+2023-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,59538,78706,Volume in litres
 2024-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,7279,6522,Volume in litres
 2024-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,31017,12789,Volume in litres
 2025-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,2975,4050,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Pennsylvania,15489,17280,Volume in litres
 2020-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,7650,3549,Volume in litres
 2021-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,28496,18000,Volume in litres
 2023-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Texas,62677,269222,Volume in litres
@@ -1133,6 +1179,8 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2024-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,31098,6342,Volume in litres
 2025-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,174922,193818,Volume in litres
 2025-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,234155,257251,Volume in litres
+2025-12-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Virginia,334088,718280,Volume in litres
+2023-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Washington,25361,18744,Volume in litres
 2024-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United States",Wisconsin,12143,15444,Volume in litres
 2021-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United Kingdom",N/A,687,903,Volume in litres
 2023-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"United Kingdom",N/A,3236,4865,Volume in litres
@@ -1148,6 +1196,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2022-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,3408,3103,Volume in litres
 2022-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,24,36,Volume in litres
 2023-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,8683,12864,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"France",N/A,606,898,Volume in litres
 2022-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Italy",N/A,846,767,Volume in litres
 2022-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Italy",N/A,2398,3101,Volume in litres
 2020-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Spain",N/A,140,197,Volume in litres
@@ -1167,6 +1216,7 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-08-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hong Kong",N/A,68104,100895,Volume in litres
 2024-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Hong Kong",N/A,686,792,Volume in litres
 2020-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Singapore",N/A,37880,47940,Volume in litres
+2022-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,43507,41816,Volume in litres
 2021-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Laos",N/A,11257,16958,Volume in litres
 2020-09-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,22731,84872,Volume in litres
 2021-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"China",N/A,119232,224056,Volume in litres
@@ -1183,9 +1233,9 @@ Period,Commodity,Province,Country,State,Value ($),Quantity,Unit of measure
 2021-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Japan",N/A,37897,116441,Volume in litres
 2021-04-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,39917,46267,Volume in litres
 2022-07-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,53565,57970,Volume in litres
-2022-11-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,43507,41816,Volume in litres
 2023-06-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,40234,41817,Volume in litres
 2024-05-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,20419,19786,Volume in litres
+2025-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Korea, South",N/A,129541,189477,Volume in litres
 2020-03-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Philippines",N/A,140,197,Volume in litres
 2020-10-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Philippines",N/A,132,196,Volume in litres
 2020-01-01,"2201.10.00 - Mineral and aerated waters not cont sugar or sweetening matter nor flavoured",Canada,"Taiwan",N/A,181455,502195,Volume in litres
