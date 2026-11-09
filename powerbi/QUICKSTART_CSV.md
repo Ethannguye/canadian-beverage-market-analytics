@@ -1,19 +1,22 @@
 # Power BI Desktop: start with authentic data immediately
 
-The repository currently includes two **real, checked CSVs**:
+The repository currently includes four **real, checked CSVs**:
 - `data/curated/retail_beverage_2020_2025.csv` — 144 monthly observations, two distinct non-overlapping NAPCS retail leaf categories.
 - `data/curated/food_availability_2020_2025.csv` — 24 annual availability observations including explicit missing values.
+- `data/curated/cpi_beverages_2020_2025.csv` — 360 CPI observations, five distinct series (Canada and Ontario).
+- `data/curated/manufacturing_soft_drinks_2020_2025.csv` — 144 monthly shipment observations for Ontario and Quebec.
 
-No MySQL setup is required to preview these two datasets in Power BI.
+No MySQL setup is required to preview these four datasets in Power BI.
 
 ## Steps in Windows
 1. Open Power BI Desktop > **Home > Transform data > Power Query Editor**.
 2. **New Source > Blank Query > Advanced Editor**. Paste contents of `powerbi/retail_from_github.pq`. Rename query `RetailBeverages`.
 3. Add another Blank Query. Paste `powerbi/availability_from_github.pq`. Rename query `FoodAvailability`.
-4. Select **Close & Apply**. For public source credentials choose **Anonymous**.
-5. On report page **Domestic Retail**, choose a clustered column chart: Axis `year`; Legend `product_group`; Values SUM(`sales_cad_millions`). Add a **classification_vintage** slicer and visibly mark the 2023 break.
-6. On page **Food Availability**, choose a line chart: X Axis `year`; Y Axis `value`; Legend `product`; add a filter `value_status = observed`. The 2024 gap must remain blank; bottled-water series has no observed values.
-7. Save as `powerbi/Beverage_Market_Analytics.pbix` on your Windows PC; large PBIX files are intentionally excluded from Git until reviewed.
+4. Repeat with `powerbi/cpi_from_github.pq` (rename `BeverageCPI`) and `powerbi/manufacturing_from_github.pq` (rename `Manufacturing`) to get all four curated datasets.
+5. Select **Close & Apply**. For public source credentials choose **Anonymous**.
+6. On report page **Domestic Retail**, choose a clustered column chart: Axis `year`; Legend `product_group`; Values SUM(`sales_cad_millions`). Add a **classification_vintage** slicer and visibly mark the 2023 break.
+7. On page **Food Availability**, choose a line chart: X Axis `year`; Y Axis `value`; Legend `product`; add a filter `value_status = observed`. The 2024 gap must remain blank; bottled-water series has no observed values.
+8. Save as `powerbi/Beverage_Market_Analytics.pbix` on your Windows PC; large PBIX files are intentionally excluded from Git until reviewed.
 
 ## Validation
 - Retail has **144** rows (4 published source series × 36 months) and two categories each year.
