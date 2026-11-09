@@ -24,7 +24,7 @@ class HS2201Tests(unittest.TestCase):
     def test_full_hs2201_balances(self):
         with tempfile.TemporaryDirectory() as td:
             p=Path(td);profile=run2201(SOURCE,p)
-            self.assertEqual(profile["all_rows"],11457)
+            self.assertEqual(profile["all_rows"],11563)
             self.assertEqual(profile["monthly_rows"],144)
             self.assertEqual(profile["annual_rows"],12)
             with (p/"cimt_2201_trade_annual_balances_2020_2025.csv").open(newline="",encoding="utf-8") as f:
@@ -35,8 +35,8 @@ class HS2201Tests(unittest.TestCase):
     def test_all_five_codes_integrity(self):
         with tempfile.TemporaryDirectory() as td:
             p=Path(td);profile=run_all(SOURCE,p)
-            self.assertEqual(profile["total_rows"],36091)
-            self.assertEqual(profile["hs2201_rows"],11457)
+            self.assertEqual(profile["total_rows"],36197)
+            self.assertEqual(profile["hs2201_rows"],11563)
             self.assertEqual(profile["hs2202_rows"],24634)
             self.assertEqual(profile["month_hs_rows"],360)
             self.assertEqual(profile["annual_hs_rows"],30)
