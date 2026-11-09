@@ -58,7 +58,7 @@ def read_total_exports(path: Path, code: str) -> list[dict]:
             if len(row) != 8:
                 raise ValueError(f"{path}:{line_no} unexpected row length {len(row)}")
             raw_date, desc, province, country, state, value, quantity, unit = row
-            if not desc.startswith(code + " -"):
+            if not (desc.startswith(code + " -") or desc.startswith(code + ".00 -")):
                 raise ValueError(f"{path}:{line_no} expected {code}, got {desc!r}")
             if province != "Canada" or not country.strip():
                 raise ValueError(f"{path}:{line_no} invalid geography or partner")
