@@ -10,7 +10,7 @@
 - `fact_food_availability`: annual published availability observations, materialized after approval.
 - `fact_manufacturing`: industry manufacturing observations, materialized after approval.
 - `fact_trade_industry`: NAICS industry-level international merchandise trade observations, not partner-level HS.
-- `dim_hs_product` and `fact_hs_trade`: imported verified CIMT commodity-level exports. Trade rows preserve import/export flow, clearance geography, partner, partner state (including US states), CAD values, quantity and original quantity unit.
+- `dim_hs_product` and `fact_hs_trade`: imported verified CIMT commodity-level imports and Total exports. Trade rows preserve import/export flow, clearance geography, partner, partner state (including US states), CAD values, quantity and original quantity unit.
 
 ## Keys and grain
 - Series key = SHA-256 of source ID, vector/coordinate or dimensions, geography, published unit and scalar factor.

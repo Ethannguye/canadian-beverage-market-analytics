@@ -21,6 +21,26 @@ class HS2201Tests(unittest.TestCase):
             self.assertTrue(all(r["hs_code"]==code.replace(".","") for r in e))
             self.assertTrue(all(".00 -" in r["commodity_name"] for r in e))
 
+    def test_curated_hs2201_and_combined_match_originals(self):
+        curated=ROOT/"data/curated"
+        collections=[
+            ("cimt_2201_trade_monthly_balances_2020_2025.csv",("reference_period","hs_code")),
+            ("cimt_2201_trade_annual_balances_2020_2025.csv",("year","hs_code")),
+            ("cimt_2201_trade_annual_partner_2020_2025.csv",("year","hs_code","partner_country")),
+            ("cimt_all_trade_monthly_balances_2020_2025.csv",("reference_period","hs_code")),
+            ("cimt_all_trade_annual_balances_2020_2025.csv",("year","hs_code")),
+            ("cimt_all_trade_annual_partner_2020_2025.csv",("year","hs_code","partner_country"))
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            p=Path(tmp)
+            run_all(SOURCE,p)
+            for filename,keys in collections:
+                def load(path):
+                    with path.open(encoding="utf-8",newline="") as f:
+                        rs=list(csv.DictReader(f))
+                    return {tuple(r[k] for k in keys):r for r in rs}
+                self.assertEqual(load(p/filename),load(curated/filename),filename)
+
     def test_full_hs2201_balances(self):
         with tempfile.TemporaryDirectory() as td:
             p=Path(td);profile=run2201(SOURCE,p)
