@@ -110,6 +110,7 @@ CREATE TABLE IF NOT EXISTS fact_hs_trade (
   hs_code VARCHAR(12) NOT NULL,
   trade_flow ENUM('Import','Export') NOT NULL,
   partner_country VARCHAR(150) NOT NULL,
+  partner_state VARCHAR(100) NOT NULL DEFAULT 'N/A',
   clearance_geography VARCHAR(150) NOT NULL,
   value_cad DECIMAL(24,4) NOT NULL,
   quantity DECIMAL(24,6) NULL,

@@ -5,7 +5,7 @@ def valid_row():
     return {
         "reference_period":"2025-01","hs_code":"2202",
         "commodity_name":"Beverages","trade_flow":"Import",
-        "partner_country":"Country A","clearance_geography":"Canada",
+        "partner_country":"Country A","partner_state":"N/A","clearance_geography":"Canada",
         "value_cad":"100.50","quantity":"","quantity_unit":"",
         "source_note":"User-verified source document","classification_version":"HS2022"
     }
@@ -26,6 +26,9 @@ class CimtTests(unittest.TestCase):
     def test_wrong_qty_unit_rejected(self):
         r=valid_row();r["quantity"]="10"
         with self.assertRaises(ValueError):validate(r)
+    def test_partner_state_changes_unique_id(self):
+        a=valid_row(); b=valid_row(); b["partner_state"]="California"
+        self.assertNotEqual(validate(a)["id"], validate(b)["id"])
     def test_duplicate_grain_hash(self):
         self.assertEqual(validate(valid_row())["id"],validate(valid_row())["id"])
 

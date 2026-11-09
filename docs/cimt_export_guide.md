@@ -16,12 +16,13 @@ This workstream requires an **authentic export** or another explicitly licensed 
 ## Normalized CSV interface
 Copy the header-only template `data/exports/cimt_normalized_template.csv` to a working CSV and populate with rows taken from the verified source.
 ```csv
-reference_period,hs_code,commodity_name,trade_flow,partner_country,clearance_geography,value_cad,quantity,quantity_unit,source_note,classification_version
+reference_period,hs_code,commodity_name,trade_flow,partner_country,partner_state,clearance_geography,value_cad,quantity,quantity_unit,source_note,classification_version
 ```
 - `reference_period`: YYYY-MM.
 - `hs_code`: 4–10 digits under 2009 / 2201 / 2202.
 - `trade_flow`: Import or Export.
 - `partner_country`: verbatim source partner (not inferred).
+- `partner_state`: preserve original State (for US subdivisions); use `N/A` otherwise. Never collapse US states into one row without aggregating values.
 - `clearance_geography`: e.g., Canada or exact source province label.
 - `value_cad`: numeric CAD amount. Do not use a 'thousands of dollars' number without explicitly multiplying by 1000 and documenting conversion.
 - `quantity`: optional numeric quantity; `quantity_unit` blank when quantity blank.

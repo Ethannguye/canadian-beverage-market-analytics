@@ -20,7 +20,7 @@ except ModuleNotFoundError:
 
 ROOT = Path(__file__).resolve().parents[1]
 HEADERS = ("reference_period","hs_code","commodity_name","trade_flow",
-           "partner_country","clearance_geography","value_cad","quantity",
+           "partner_country","partner_state","clearance_geography","value_cad","quantity",
            "quantity_unit","source_note","classification_version")
 HEADINGS = ("2009", "2201", "2202")
 
@@ -37,7 +37,7 @@ def validate(r: dict) -> dict:
     flow = r["trade_flow"].strip().title()
     if flow not in ("Import", "Export"):
         raise ValueError(f"Invalid trade_flow: {flow}")
-    for field in ("commodity_name","partner_country","clearance_geography",
+    for field in ("commodity_name","partner_country","partner_state","clearance_geography",
                   "source_note","classification_version"):
         if not r[field].strip():
             raise ValueError(f"Required field blank: {field}")
@@ -51,10 +51,10 @@ def validate(r: dict) -> dict:
     if qty is not None and not r["quantity_unit"].strip():
         raise ValueError("quantity_unit is required when quantity is present")
     key = [period[1],hs,flow,r["partner_country"].strip(),
-           r["clearance_geography"].strip(),r["quantity_unit"].strip()]
+           r["partner_state"].strip(),r["clearance_geography"].strip(),r["quantity_unit"].strip()]
     row_id = hashlib.sha256(json.dumps(key,ensure_ascii=False).encode()).hexdigest()
     return {"id":row_id,"period":period,"hs":hs,"name":r["commodity_name"].strip(),
-        "flow":flow,"partner":r["partner_country"].strip(),
+        "flow":flow,"partner":r["partner_country"].strip(), "state":r["partner_state"].strip(),
         "geo":r["clearance_geography"].strip(),"value":val,"quantity":qty,
         "quantity_unit":r["quantity_unit"].strip(),"source_note":r["source_note"].strip(),
         "version":r["classification_version"].strip()}
@@ -83,13 +83,13 @@ def import_file(path: Path, conn) -> int:
                 """,(row["hs"],row["name"],row["version"]))
                 cursor.execute("""
                     INSERT INTO fact_hs_trade
-                    (trade_row_id,reference_period,hs_code,trade_flow,partner_country,
+                    (trade_row_id,reference_period,hs_code,trade_flow,partner_country,partner_state,
                      clearance_geography,value_cad,quantity,quantity_unit,source_note)
-                    VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+                    VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
                     ON DUPLICATE KEY UPDATE value_cad=VALUES(value_cad),
                         quantity=VALUES(quantity),source_note=VALUES(source_note)
                 """,(row["id"],p[1],row["hs"],row["flow"],row["partner"],
-                     row["geo"],row["value"],row["quantity"],row["quantity_unit"],
+                     row["state"],row["geo"],row["value"],row["quantity"],row["quantity_unit"],
                      row["source_note"]))
                 count += 1
         conn.commit()

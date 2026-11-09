@@ -42,7 +42,7 @@ WHERE d.review_status='approved';
 CREATE OR REPLACE VIEW vw_hs_trade AS
 SELECT f.reference_period,p.period_year,f.hs_code,d.commodity_name,
   d.classification_version,d.review_status,f.trade_flow,
-  f.partner_country,f.clearance_geography,f.value_cad,
+  f.partner_country,f.partner_state,f.clearance_geography,f.value_cad,
   f.quantity,f.quantity_unit,f.source_note
 FROM fact_hs_trade f JOIN dim_hs_product d USING(hs_code)
 JOIN dim_period p USING(reference_period)
