@@ -2,7 +2,7 @@
 
 A reproducible portfolio project studying **Canada's domestic non-alcoholic beverage market and international trade** using public Canadian statistics, Python, MySQL, and Power BI.
 
-> **Project status (2026-11-09):** Data-source inventory and engineering foundation started. **No market figures or dashboards are claimed as completed.** Raw data must be downloaded, validated, and modeled before drawing conclusions.
+> **Project status (2026-11-09):** GitHub Actions successfully downloaded and profiled the first official source (32-10-0054-01). One small curated, auditable food-availability CSV is committed in `data/curated/`. Other sources, database loading, and the PBIX remain in progress. No full-market size, trade-partner figures, or completed dashboard is claimed.
 
 ## Research questions
 1. How did relevant retail-product sales change during 2020–2025?

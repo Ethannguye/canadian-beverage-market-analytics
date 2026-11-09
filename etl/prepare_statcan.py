@@ -12,9 +12,9 @@ from pathlib import Path
 import pandas as pd
 
 try:
-    from etl.common import TABLES, BEVERAGE_PATTERN, digest, period_info, series_columns
+    from etl.common import TABLES, BEVERAGE_PATTERN, ALCOHOL_EXCLUSION, digest, period_info, series_columns
 except ModuleNotFoundError:
-    from common import TABLES, BEVERAGE_PATTERN, digest, period_info, series_columns
+    from common import TABLES, BEVERAGE_PATTERN, ALCOHOL_EXCLUSION, digest, period_info, series_columns
 
 ROOT = Path(__file__).resolve().parents[1]
 COLUMNS = ["row_hash", "source_id", "series_id", "period_key", "reference_period",
@@ -84,7 +84,7 @@ def process_table(pid: str, raw_dir: Path, output_dir: Path,
                                     if str(row.get(k, "")).strip()}
                 label = pick_category(dimension_values)
                 text = " | ".join(dimension_values.values())
-                if not all_categories and not BEVERAGE_PATTERN.search(text):
+                if not all_categories and (not BEVERAGE_PATTERN.search(text) or ALCOHOL_EXCLUSION.search(text)):
                     continue
                 period_key, period_ref, grain, year = period
                 geography = str(row.get("GEO", ""))

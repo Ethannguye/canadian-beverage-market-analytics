@@ -1,0 +1,25 @@
+year,product,source_vector,unit_of_measure,value,value_status,source_table
+2020,Bottled water,v783736,"Litres per person, per year",,missing_in_source,32100054
+2021,Bottled water,v783736,"Litres per person, per year",,missing_in_source,32100054
+2022,Bottled water,v783736,"Litres per person, per year",,missing_in_source,32100054
+2023,Bottled water,v783736,"Litres per person, per year",,missing_in_source,32100054
+2024,Bottled water,v783736,"Litres per person, per year",,missing_in_source,32100054
+2025,Bottled water,v783736,"Litres per person, per year",,missing_in_source,32100054
+2020,Coffee,v783724,"Litres per person, per year",105.04,observed,32100054
+2021,Coffee,v783724,"Litres per person, per year",109.27,observed,32100054
+2022,Coffee,v783724,"Litres per person, per year",111.79,observed,32100054
+2023,Coffee,v783724,"Litres per person, per year",107.55,observed,32100054
+2024,Coffee,v783724,"Litres per person, per year",,missing_in_source,32100054
+2025,Coffee,v783724,"Litres per person, per year",97.74,observed,32100054
+2020,Soft drinks,v108443,"Litres per person, per year",52.72,observed,32100054
+2021,Soft drinks,v108443,"Litres per person, per year",51.30,observed,32100054
+2022,Soft drinks,v108443,"Litres per person, per year",48.56,observed,32100054
+2023,Soft drinks,v108443,"Litres per person, per year",45.68,observed,32100054
+2024,Soft drinks,v108443,"Litres per person, per year",,missing_in_source,32100054
+2025,Soft drinks,v108443,"Litres per person, per year",42.53,observed,32100054
+2020,Tea,v783723,"Litres per person, per year",77.74,observed,32100054
+2021,Tea,v783723,"Litres per person, per year",81.72,observed,32100054
+2022,Tea,v783723,"Litres per person, per year",91.89,observed,32100054
+2023,Tea,v783723,"Litres per person, per year",75.03,observed,32100054
+2024,Tea,v783723,"Litres per person, per year",,missing_in_source,32100054
+2025,Tea,v783723,"Litres per person, per year",94.70,observed,32100054

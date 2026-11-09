@@ -20,6 +20,8 @@ BEVERAGE_PATTERN = re.compile(
     r"energy drinks?|sports drinks?|coffee|tea|non[- ]alcoholic|"
     r"soda|cola|soft drink and ice manufacturing)\b", re.I
 )
+# Preliminary safeguard only: final series inclusion requires a metadata audit.
+ALCOHOL_EXCLUSION = re.compile(r"\\bciders?\\b|\\bcoolers?\\b|\\bbeer\\b|\\bwine\\b|\\bspirits?\\b", re.I)
 METADATA_COLUMNS = {
     "REF_DATE", "GEO", "DGUID", "UOM", "UOM_ID", "SCALAR_FACTOR",
     "SCALAR_ID", "VECTOR", "COORDINATE", "VALUE", "STATUS", "SYMBOL",

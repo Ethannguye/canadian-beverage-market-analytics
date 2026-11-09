@@ -1,0 +1,41 @@
+name: Retail and industry-trade discovery
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/market-discovery.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        pid: ['20100017','20100080','12100176']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Download official StatCan full CSV for table
+        run: python etl/download_statcan.py --tables ${{ matrix.pid }} --max-mb 600
+      - name: Prepare 2020-2025 candidate data
+        run: python etl/prepare_statcan.py --tables ${{ matrix.pid }}
+      - name: Display quality profile
+        run: cat data/processed/${{ matrix.pid }}_profile.json
+      - name: Save outputs for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: statcan-discovery-${{ matrix.pid }}
+          path: |
+            data/raw/manifest.json
+            data/processed/${{ matrix.pid }}_profile.json
+            data/processed/${{ matrix.pid }}_staging.csv
+          retention-days: 7

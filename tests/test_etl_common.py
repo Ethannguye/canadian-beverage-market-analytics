@@ -1,5 +1,5 @@
 import unittest
-from etl.common import TABLES, BEVERAGE_PATTERN, digest, period_info, series_columns
+from etl.common import TABLES, BEVERAGE_PATTERN, ALCOHOL_EXCLUSION, digest, period_info, series_columns
 from etl.prepare_statcan import clean_num, pick_category
 
 class PeriodTests(unittest.TestCase):
@@ -21,6 +21,9 @@ class PeriodTests(unittest.TestCase):
         self.assertEqual(clean_num(".."),"")
     def test_label(self):
         self.assertEqual(pick_category({"Products and product groups":"Soft drinks"}),"Soft drinks")
+    def test_exclude_alcohol_candidates(self):
+        self.assertIsNotNone(ALCOHOL_EXCLUSION.search("Ciders, coolers and other refreshment beverages"))
+        self.assertIsNone(ALCOHOL_EXCLUSION.search("Non-alcoholic soft drinks"))
     def test_beverage_candidate(self):
         self.assertIsNotNone(BEVERAGE_PATTERN.search("Carbonated soft drinks"))
         self.assertIsNone(BEVERAGE_PATTERN.search("Automotive components"))
