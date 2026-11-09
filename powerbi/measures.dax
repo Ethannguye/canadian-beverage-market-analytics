@@ -1,0 +1,58 @@
+-- DAX MEASURES / FORMULA EXAMPLES
+-- These are not a deployable PBIX. Create one measure at a time in Power BI Desktop.
+-- Assumes data loaded from SQL views and a 'Calendar' table related to PeriodDate.
+-- Trade measures should use HS codes at one consistent non-overlapping level.
+
+HS Import CAD =
+CALCULATE(
+    SUM('vw_hs_trade'[value_cad]),
+    'vw_hs_trade'[trade_flow] = "Import",
+    'vw_hs_trade'[clearance_geography] = "Canada",
+    NOT('vw_hs_trade'[partner_country] IN {"World", "All countries", "Total", "All trading partners"})
+)
+
+HS Export CAD =
+CALCULATE(
+    SUM('vw_hs_trade'[value_cad]),
+    'vw_hs_trade'[trade_flow] = "Export",
+    'vw_hs_trade'[clearance_geography] = "Canada",
+    NOT('vw_hs_trade'[partner_country] IN {"World", "All countries", "Total", "All trading partners"})
+)
+
+HS Trade Balance CAD =
+[HS Export CAD] - [HS Import CAD]
+
+HS Import YoY % =
+VAR PreviousYear = CALCULATE([HS Import CAD], DATEADD('Calendar'[Date], -1, YEAR))
+RETURN DIVIDE([HS Import CAD] - PreviousYear, PreviousYear)
+
+Supplier Share of HS Imports =
+DIVIDE(
+    [HS Import CAD],
+    CALCULATE([HS Import CAD], ALL('vw_hs_trade'[partner_country]))
+)
+
+-- Avoid adding separately labelled parent/child retail categories.
+-- First filter a single approved source vintage, a compatible category,
+-- one geography, unit and scalar factor in the report context.
+Retail Published Value (Scoped) =
+IF(
+    HASONEVALUE('vw_retail_approved'[source_id]) &&
+    HASONEVALUE('vw_retail_approved'[unit_label]) &&
+    HASONEVALUE('vw_retail_approved'[scalar_factor]) &&
+    HASONEVALUE('vw_retail_approved'[category_label]),
+    SUM('vw_retail_approved'[value_as_published]),
+    BLANK()
+)
+
+-- CPI must be reported as one indexed series, not summed.
+CPI Level (Scoped) =
+IF(
+    HASONEVALUE('vw_cpi_approved'[series_id]),
+    MAX('vw_cpi_approved'[value_as_published]),
+    BLANK()
+)
+
+CPI YoY % =
+VAR PreviousYear = CALCULATE([CPI Level (Scoped)], DATEADD('Calendar'[Date], -1, YEAR))
+RETURN DIVIDE([CPI Level (Scoped)] - PreviousYear, PreviousYear)

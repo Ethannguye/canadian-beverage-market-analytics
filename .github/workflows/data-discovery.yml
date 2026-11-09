@@ -1,0 +1,37 @@
+name: StatCan beverage source discovery
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/data-discovery.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Acquire one official food availability dataset
+        run: python etl/download_statcan.py --tables 32100054 --max-mb 300
+      - name: Prepare unreviewed beverage candidates (2020–2025)
+        run: python etl/prepare_statcan.py --tables 32100054
+      - name: Show source profile
+        run: cat data/processed/32100054_profile.json
+      - name: Upload reproducible discovery outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: statcan-food-availability-discovery
+          path: |
+            data/raw/manifest.json
+            data/processed/32100054_profile.json
+            data/processed/32100054_staging.csv
+          retention-days: 7
