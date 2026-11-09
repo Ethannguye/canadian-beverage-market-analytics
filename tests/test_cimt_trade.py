@@ -17,6 +17,25 @@ class CimtFullTradeTests(unittest.TestCase):
             self.assertEqual({r["trade_flow"] for r in data},{"Export"})
             self.assertEqual(len({r["reference_period"] for r in data}),72)
 
+    def test_curated_trade_summaries_match_rebuilt_official_sources(self):
+        curated = ROOT / "data" / "curated"
+        files = [
+            ("cimt_trade_monthly_balances_2020_2025.csv",("reference_period","hs_code")),
+            ("cimt_trade_annual_balances_2020_2025.csv",("year","hs_code")),
+            ("cimt_trade_annual_partner_2020_2025.csv",("year","hs_code","partner_country")),
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            produced = Path(tmp)
+            run(RAW,produced)
+            for filename, key_names in files:
+                def keyed(path):
+                    with path.open(encoding="utf-8",newline="") as f:
+                        values = list(csv.DictReader(f))
+                    return {tuple(row[n] for n in key_names):row for row in values}
+                from_originals = keyed(produced/filename)
+                committed = keyed(curated/filename)
+                self.assertEqual(committed,from_originals,filename)
+
     def test_trade_balance_reproducibility(self):
         with tempfile.TemporaryDirectory() as tmp:
             out=Path(tmp)
