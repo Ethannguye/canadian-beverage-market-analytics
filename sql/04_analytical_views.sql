@@ -51,7 +51,7 @@ WHERE d.review_status='approved';
 -- Explicitly country-level ONLY, Canada clearance and excluding World totals.
 -- Not a market share of Canadian consumption.
 CREATE OR REPLACE VIEW vw_hs_import_partner_canada AS
-SELECT reference_period,period_year,hs_code,commodity_name,partner_country,
+SELECT reference_period,period_year,hs_code,commodity_name,partner_country,partner_state,
        value_cad,quantity,quantity_unit
 FROM vw_hs_trade
 WHERE trade_flow='Import'

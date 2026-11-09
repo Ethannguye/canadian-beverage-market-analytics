@@ -1,7 +1,11 @@
 # Power BI report implementation guide
 
-**Status:** Blueprint and DAX examples only. A ready-to-open .pbix is **not yet available**.
+**Status:** Five Power Query connectors for real curated domestic-source and authentic HS6 import data are ready. A ready-to-open .pbix is **not yet available**.
 Power BI Desktop is normally run on Windows. The user can open this repo on a school Windows PC or another machine running Power BI Desktop.
+
+## Quick import (no MySQL required)
+
+See [QUICKSTART_CSV.md](QUICKSTART_CSV.md). The `cimt_imports_from_github.pq` Power Query reads the three original user-exported Statistics Canada import files; it skips the first title row and source citation footer, retains `PartnerState`, and filters 2020–2025. The other four .pq files read verified domestic indicators.
 
 ## Import data
 Home > Get data > MySQL database. Server: localhost (if MySQL is on the same Windows machine). Database: canadian_beverage_market. Select Import mode for a small 2020–2025 curated model.
@@ -19,7 +23,7 @@ Alternatively, export view data to CSV from MySQL Workbench if the Windows PC ca
 ## Six report pages
 1. Executive Overview — cards; cross-source trends only with separate axes/units.
 2. Domestic Retail — monthly published values; NAPCS vintage slicer; do not bridge 2022–2023 blindly.
-3. Imports & Exports — HS values by month, product and partner; World aggregate filter.
+3. Imports (Exports pending) — actual HS220210/220291/220299 values by month, product and partner; preserve US states. No trade balance until exports are collected.
 4. Pricing & Availability — CPI YoY as rate; annual food availability in a separate visual.
 5. Manufacturing & Regional — source-compliant province/industry breakdown.
 6. Market Entry Opportunities — partner concentration, growth and a **transparent illustrative** opportunity scoring rubric.
@@ -32,6 +36,6 @@ Alternatively, export view data to CSV from MySQL Workbench if the Windows PC ca
 - Use only **reviewed** views. An empty chart is expected until source approvals and loading.
 - Before reporting any metric, cross-check Power BI numbers with SQL totals for exactly the same grain and filters.
 - Do not sum CPI; use an index level, calculate YoY percentages.
-- Never aggregate both HS heading and its child subheadings, or both 'World' and the underlying countries.
+- Never aggregate both HS heading and its child subheadings, or both 'World' and underlying countries. **Source partner Country=Canada is not a World total.**
 
 See `powerbi/measures.dax` for copyable DAX examples after adapting the table and field names.

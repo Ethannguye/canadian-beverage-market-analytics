@@ -1,0 +1,75 @@
+name: CIMT HS6 imports reproducible validation and MySQL load
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/source_exports/cimt/**'
+      - 'etl/prepare_cimt_exports.py'
+      - 'etl/load_cimt_csv.py'
+      - 'sql/**'
+      - '.github/workflows/cimt-integration.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-load:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: temporary_ci_test_password
+        ports: [ "3306:3306" ]
+        options: >-
+          --health-cmd="mysqladmin ping -h 127.0.0.1 -uroot -ptemporary_ci_test_password"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=12
+    env:
+      MYSQL_PWD: temporary_ci_test_password
+      MYSQL_HOST: 127.0.0.1
+      MYSQL_USER: root
+      MYSQL_PASSWORD: temporary_ci_test_password
+      MYSQL_DATABASE: canadian_beverage_market
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Python and MySQL client dependencies
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get update -qq
+          sudo apt-get install -y default-mysql-client
+      - name: Validate and normalize all three original CIMT imports exports
+        run: python etl/prepare_cimt_exports.py
+      - name: Prepare MySQL schema and analytical objects
+        run: |
+          mysql --protocol=tcp -h 127.0.0.1 -uroot < sql/01_schema.sql
+          mysql --protocol=tcp -h 127.0.0.1 -uroot < sql/02_load.sql
+          mysql --protocol=tcp -h 127.0.0.1 -uroot < sql/04_analytical_views.sql
+      - name: Load 15,670 authentic HS6 observations
+        run: python etl/load_cimt_csv.py data/processed/cimt_imports_normalized_2020_2025.csv
+      - name: Verify 2025 HS6 totals and original row count
+        run: |
+          mysql --protocol=tcp -h 127.0.0.1 -uroot -D canadian_beverage_market -N -e "
+          SELECT IF(COUNT(*)=15670,'PASS:count','FAIL:count') FROM fact_hs_trade;
+          SELECT IF(SUM(value_cad)=742467960,'PASS:220210','FAIL:220210')
+          FROM fact_hs_trade WHERE hs_code='220210' AND reference_period LIKE '2025-%';
+          SELECT IF(SUM(value_cad)=36748545,'PASS:220291','FAIL:220291')
+          FROM fact_hs_trade WHERE hs_code='220291' AND reference_period LIKE '2025-%';
+          SELECT IF(SUM(value_cad)=917338369,'PASS:220299','FAIL:220299')
+          FROM fact_hs_trade WHERE hs_code='220299' AND reference_period LIKE '2025-%';
+          "
+      - name: Upload cleaned record-level data and provenance for later MySQL / Power BI use
+        uses: actions/upload-artifact@v4
+        with:
+          name: cimt-2202-imports-normalized-2020-2025
+          path: |
+            data/processed/cimt_imports_normalized_2020_2025.csv
+            data/processed/cimt_imports_monthly_partner_2020_2025.csv
+            data/processed/cimt_profile.json
+          retention-days: 7

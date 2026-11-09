@@ -2,7 +2,7 @@
 
 A reproducible portfolio project studying **Canada's domestic non-alcoholic beverage market and international trade** using public Canadian statistics, Python, MySQL, and Power BI.
 
-> **Project status (2026-11-09):** GitHub Actions successfully downloaded and profiled the first official source (32-10-0054-01). One small curated, auditable food-availability CSV is committed in `data/curated/`. Four official data tables have now been curated into 672 source-attributed observations (retail 144, CPI 360, food availability 24, manufacturing 144). The MySQL schema and Power BI imports are implemented as code/templates, but final database deployment, HS partner trade and the actual .pbix remain outstanding. No full-market size, trade-partner figures, or finished dashboard is claimed.
+> **Project status (2026-11-09):** Verified 5 official-source areas with **672 source-attributed domestic-market observations** and **15,670 authentic CIMT import observations** for HS6 220210, 220291 and 220299 (72 months each). Reproducible ETL, quality tests, MySQL schema and Power Query scripts are committed. **No exports, HS2201, HS2009, completed database fact deployment, or .pbix file yet.** Market research beyond these commodities remains ongoing.
 
 ## Research questions
 1. How did relevant retail-product sales change during 2020–2025?
@@ -50,7 +50,7 @@ python etl/download_statcan.py --tables 32100054
 python etl/prepare_statcan.py --tables 32100054
 python -m unittest discover -s tests -v
 ```
-**Note:** Full-table exports can be very large. Start with one table, check its metadata, dimensions, and product codes, and only then expand. The project currently does **not** bundle a ready-to-run PBIX or verified market totals.
+**Note:** Full-table exports can be very large. Start with one table, check its metadata, dimensions, and product codes, and only then expand. The project currently does **not** bundle a ready-to-run PBIX or comprehensive market-wide totals. Published import sums are strictly for the selected HS6 codes.
 
 ## Ready-to-use verified data
 
@@ -60,8 +60,20 @@ python -m unittest discover -s tests -v
 | CPI (Canada/Ontario and beverage categories) | 360 | [CSV](data/curated/cpi_beverages_2020_2025.csv) |
 | Food available per person | 24 | [CSV](data/curated/food_availability_2020_2025.csv) |
 | Manufacturing shipments, Ontario/Quebec | 144 | [CSV](data/curated/manufacturing_soft_drinks_2020_2025.csv) |
+| CIMT raw imports HS220210, HS220291, HS220299 | 15,670 | [original files](data/source_exports/cimt/) |
+| CIMT monthly HS6 aggregates | 216 | [CSV](data/curated/cimt_imports_monthly_totals_2020_2025.csv) |
+| CIMT yearly partner aggregates | 1,398 | [CSV](data/curated/cimt_imports_annual_partner_2020_2025.csv) |
 
-**Power BI quick start:** [import four CSV sources via ready-made Power Query scripts](powerbi/QUICKSTART_CSV.md). Core category/method limits remain described under `docs/`.
+**Power BI quick start:** [import five domains (domestic indicators + HS6 imports) via ready-made Power Query scripts](powerbi/QUICKSTART_CSV.md). Core category/method limits remain described under `docs/`.
+
+## Reproduce partner-level imports
+
+```bash
+python etl/prepare_cimt_exports.py
+# Outputs include data/processed/cimt_imports_normalized_2020_2025.csv
+# Requires MySQL 8+ schema and credentials for the next step:
+# python etl/load_cimt_csv.py data/processed/cimt_imports_normalized_2020_2025.csv
+```
 
 ## Planned deliverables
 - Data acquisition logs, source inventory and data dictionary
@@ -75,7 +87,7 @@ python -m unittest discover -s tests -v
 - Never sum CPI, availability, retail sales, and imports into a synthetic 'market size'.
 - Treat **province of clearance** as customs clearance location, not consumption.
 - Record the 2023 NAPCS break; only compare matched categories.
-- Do not calculate country market shares from an industry-by-all-countries total.
+- Do not calculate country market shares from an industry-by-all-countries total. For CIMT, sum US state observations to US country totals and never mistake partner Country=Canada for a World subtotal.
 - No simulated market figures presented as real results.
 
 ## License
