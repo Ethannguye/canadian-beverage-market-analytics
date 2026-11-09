@@ -1,0 +1,8 @@
+source_id,table_id,title,frequency,source_type,priority,status,notes,source_url
+retail_legacy,20100017,Monthly retail commodity sales NAPCS 2017,monthly,statcan_wds,medium,discovery_required,Archived historical series; requires classification concordance,https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010001701
+retail_new,20100080,Monthly retail commodity sales NAPCS 2022,monthly,statcan_wds,high,discovery_required,Starts 2023; determine matching beverage product codes,https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010008001
+cpi,18100004,Consumer Price Index monthly,monthly,statcan_wds,high,discovery_required,Index not prices; check beverage measures and geographic coverage,https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401
+availability,32100054,Food available in Canada,annual,statcan_wds,high,discovery_required,Availability is not measured consumption,https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210005401
+manufacturing,16100048,Manufacturing sales by industry,monthly,statcan_wds,medium,discovery_required,Check NAICS 312110 availability and unit scaling,https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1610004801
+trade_industry,12100176,Canadian international merchandise trade by industry all countries,monthly,statcan_wds,medium,discovery_required,Industry group is not a substitute for commodity HS partner-level data,https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1210017601
+trade_hs,cimt,Canadian International Merchandise Trade Web Application,monthly,manual_verified_export,high,export_required,HS codes 2009 2201 2202; preserve partner geography and units,https://www150.statcan.gc.ca/n1/en/catalogue/71-607-X2021004
